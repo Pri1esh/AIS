@@ -1,0 +1,69 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.cardContainer {
+  .overview {
+    @include rem(padding-bottom, 60);
+
+    @include media($md, min) {
+      @include rem(padding-bottom, 60);
+    }
+
+    @include media($lg, min) {
+      @include rem(padding-bottom, 40);
+    }
+  }
+
+  .rowWrapper {
+    @include rem(padding-bottom, 28);
+
+    @include media($sm, min) {
+      @include rem(padding-bottom, 60);
+    }
+
+    @include media($md, min) {
+      @include rem(padding-bottom, 100);
+    }
+
+    .wrapper {
+      height: 100%;
+      background: $blue;
+
+      &.bgPurple {
+        background: $purple;
+      }
+
+      .thumb {
+        @include rem(max-height, 380);
+        position: relative;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description {
+        padding: 1.25rem;
+        color: $secondary;
+
+        .heading {
+          color: $secondary;
+          font-family: $ubuntu-bold;
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+
+          @include media($lg, min) {
+            font-size: 2.5rem;
+          }
+        }
+
+        .subHeading {
+          margin: 0;
+          font-size: 1rem;
+          @include rem(min-height, 76);
+        }
+      }
+    }
+  }
+}

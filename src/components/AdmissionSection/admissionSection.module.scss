@@ -1,0 +1,70 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  background: $snow;
+  padding-bottom: 3.75rem;
+  padding-top: 3.75rem;
+
+  @include media($sm, min) {
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+  }
+
+  .sectionHeading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: $purple;
+
+    @include media($lg, min) {
+      font-size: 3.75rem;
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  .listItemWrapper {
+    @include rem(margin-bottom, 32);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .subHeading {
+    color: $baastrichtblue;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .listWrapper {
+    color: $granite;
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .subListWrapper {
+    li {
+      margin: 0;
+      line-height: 1.5rem;
+      list-style-type: disc;
+
+      &::marker {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  .label {
+    @include rem(margin-bottom, 12);
+
+    &::marker {
+      font-size: 1rem;
+    }
+
+    &:last-child {
+      @include rem(margin-bottom, 0);
+    }
+  }
+}

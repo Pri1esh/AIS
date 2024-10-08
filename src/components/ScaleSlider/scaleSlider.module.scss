@@ -1,0 +1,14 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  position: relative;
+  background-color: $snow;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+
+  @include media($lg, min) {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+}

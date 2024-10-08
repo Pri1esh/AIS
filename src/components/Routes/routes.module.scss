@@ -1,0 +1,22 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem('padding-top', 60);
+  @include rem('padding-bottom', 60);
+
+  @include media($sm, min) {
+    @include rem('padding-top', 100);
+    @include rem('padding-bottom', 100);
+  }
+}
+
+.sideNavWrapper {
+  width: 100%;
+  flex: 100%;
+
+  @include media($lg, min) {
+    width: 25%;
+    flex: 0 0 auto;
+  }
+}

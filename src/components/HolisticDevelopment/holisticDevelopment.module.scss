@@ -1,0 +1,199 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.wrapper {
+  @include padding(0, 0, 60, 0);
+
+  @include media($sm, min) {
+    @include padding(0, 0, 100, 0);
+  }
+
+  .heading {
+    @include rem(font-size, 40);
+    @include rem(margin-bottom, 40);
+    color: $purple;
+
+    @include media($lg, min) {
+      @include rem(font-size, 60);
+      @include rem(margin-bottom, 60);
+    }
+  }
+
+  .gridrow {
+    display: grid;
+    @include rem(margin-bottom, 80);
+
+    @include media($sm, min) {
+      grid-template-columns: repeat(12, [col] 1fr);
+    }
+
+    [data-columns='1'] {
+      @include media($sm, min) {
+        grid-column: col / span 6;
+        grid-row: row / span 2;
+      }
+    }
+
+    [data-columns='2'] {
+      order: 3;
+
+      @include media($sm, min) {
+        order: 2;
+        grid-column: col 7 / span 3;
+        grid-row: row;
+      }
+    }
+
+    [data-columns='3'] {
+      order: 2;
+
+      @include media($sm, min) {
+        order: 3;
+        grid-column: col 10 / span 3;
+        grid-row: row;
+      }
+    }
+
+    [data-columns='4'] {
+      @include media($sm, min) {
+        grid-column: col 7 / span 3;
+        grid-row: row 2;
+      }
+    }
+
+    [data-columns='5'] {
+      @include media($sm, min) {
+        grid-column: col 10 / span 3;
+        grid-row: row 2;
+      }
+    }
+
+    .card {
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+
+      .imageTextWrapper {
+        min-height: 375px;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        &:after {
+          @include rem(min-height, 260);
+          content: '';
+          background-image: linear-gradient(to top, $primary, rgba(0, 0, 0, 0));
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          position: absolute;
+          opacity: 0.8;
+        }
+      }
+
+      .textWrapper {
+        height: 100%;
+
+        @include media-min-max($sm, $lgb) {
+          p {
+            @include rem(font-size, 12);
+            @include rem(line-height, 16);
+            @include rem(margin, 0);
+          }
+        }
+      }
+
+      .imageWrapper {
+        @include media($sm, min) {
+          height: 100%;
+        }
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      span {
+        height: 100%;
+      }
+
+      .cardbody {
+        position: relative;
+        max-height: 100%;
+        height: 100%;
+
+        .textContainer {
+          @include rem(padding, 20);
+          z-index: 2;
+          position: absolute;
+          color: $secondary;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+
+        .blueWrapper {
+          @include padding(18, 20, 18, 20);
+          background-color: $blue;
+          color: $secondary;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          @include media-min-max($sm, $lg) {
+            @include padding(10, 10, 10, 10);
+          }
+        }
+
+        .purpleWrapper {
+          @include padding(18, 20, 18, 20);
+          background-color: $purple;
+          color: $secondary;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          @include media-min-max($sm, $lg) {
+            @include padding(10, 10, 10, 10);
+          }
+        }
+
+        h3 {
+          @include rem(font-size, 24);
+          @include rem(margin-bottom, 8);
+          font-family: $ubuntu;
+          color: $secondary;
+
+          @include media($lgb, min) {
+            @include rem(margin-bottom, 12);
+            @include rem(font-size, 32);
+            font-family: $ubuntu-bold;
+          }
+        }
+      }
+    }
+
+    .description {
+      margin-bottom: 0;
+
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @include media-min-max($sm, $lg) {
+        @include rem(font-size, 12);
+        @include rem(line-height, 16);
+      }
+    }
+  }
+}

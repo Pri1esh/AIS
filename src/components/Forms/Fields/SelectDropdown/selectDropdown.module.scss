@@ -1,0 +1,220 @@
+@import 'styles/partials/variable.scss';
+@import 'styles/partials/mixins.scss';
+
+.wrapper {
+  @include rem('border-radius', 8);
+
+  .selectdropdown {
+    @include padding(16, 20, 20, 18);
+    display: block;
+    width: 100%;
+    height: 3.75rem;
+    @include font-size(16);
+    line-height: 1.5;
+    background-color: $secondary;
+    border: 0.063rem solid $gainsboro;
+    border-radius: 0.5rem;
+    position: relative;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+    @include media($lg, min) {
+      @include font-size(14);
+    }
+
+    @include media($sm, min) {
+      @include padding(17, 20, 20, 18);
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      border: 0.063rem solid $gainsboro;
+      outline: 0;
+      background: $secondary;
+    }
+
+    label {
+      @include font-size(16);
+      color: $granite;
+      transition: all 300ms;
+
+      @include media($lg, min) {
+        @include font-size(14);
+      }
+    }
+
+    label.selectfloatinglabel {
+      @include rem(font-size, 12);
+      opacity: 0.65;
+      transform: scale(0.85) translateY(-0.75rem) translateX(-0.75rem);
+      position: absolute;
+    }
+
+    .selectvalue {
+      @include rem(top, 10);
+      @include rem(left, 0);
+      position: absolute;
+      width: 100%;
+      transition: 0.3s ease;
+      height: 100%;
+      padding: 1rem 1rem;
+      color: $raisinblack;
+      font-family: $ubuntu;
+
+      .selectvalueLabel {
+        display: -webkit-box;
+        max-width: 95%;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+
+    .selectarrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) rotate(180deg);
+      right: 1.25rem;
+      stroke: $raisinblack;
+      transition: 0.3s ease;
+      font-size: 1rem;
+
+      .close {
+        z-index: $zindex-1;
+      }
+
+      .angleUp {
+        font-size: 0.5rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+
+      &.selectClose:not(.crossIcon) {
+        transform: translateY(-50%) rotate(0deg);
+        background-position: center;
+      }
+
+      &.crossIcon {
+        z-index: $zindex-1;
+      }
+    }
+
+    .dropdownbox {
+      @include rem(min-height, 60);
+      @include rem(border-radius, 8);
+      @include rem(top, 58);
+      position: absolute;
+      width: 100%;
+      background: $secondary;
+      border: 0.063rem solid $gainsboro;
+      z-index: $zindex-2;
+      padding: 0.625rem 0;
+      display: none;
+      transition: 0.3s ease;
+      left: 0;
+      max-height: 11.125rem;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      ul {
+        @include rem(margin, 0);
+        @include rem(padding, 0);
+        list-style: none;
+
+        li {
+          width: 100%;
+          background: $secondary;
+
+          &:hover,
+          &:focus {
+            color: $darkcharcoal;
+            text-decoration: none;
+            background-color: $snow;
+          }
+
+          button {
+            font-family: $source-sans-regular;
+            @include rem('padding', 15);
+            @include padding(14, 20, 14, 20);
+            width: 100%;
+            text-align: left;
+            border: none;
+            background: none;
+            color: $darkcharcoal;
+          }
+
+          &.selected {
+            background-color: $snow;
+            font-family: $ubuntu;
+          }
+        }
+      }
+    }
+
+    .selectOpen {
+      display: block;
+    }
+  }
+
+  .error {
+    border: 0.063rem solid $red;
+  }
+}
+
+.dropDownoffCanvas {
+  ul {
+    padding: 0;
+
+    li {
+      button {
+        @include font-size(14);
+        @include padding(12, 20, 12, 20);
+        color: $darkcharcoal;
+        font-family: $source-sans-regular;
+        align-items: center;
+        text-align: left;
+        cursor: pointer;
+        display: flex;
+        transition: background-color 0.4s linear;
+        border: none;
+        background: none;
+      }
+
+      &.selected {
+        background-color: $snow;
+        font-family: $ubuntu;
+      }
+    }
+  }
+}
+
+.offcanvas {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: auto;
+  max-height: 98%;
+
+  :global(.offcanvas-header) {
+    @include padding(16, 20, 12, 20);
+
+    :global(.btn-close) {
+      opacity: 0.8;
+      @include rem(background-size, 15);
+    }
+  }
+
+  .offcanvasHeading {
+    @include font-size(16);
+    @include rem(padding-top, 8);
+    @include rem(margin-bottom, 0);
+    @include text-shadow($baastrichtblue);
+    color: $baastrichtblue;
+    font-family: $ubuntu;
+  }
+
+  .offcanvasBody {
+    padding: 0;
+  }
+}

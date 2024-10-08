@@ -1,0 +1,18 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding-bottom: 3.75rem;
+
+  .heading {
+    @include font-size(40);
+    font-family: $ubuntu-bold;
+    padding-bottom: 1rem;
+    color: $purple;
+  }
+
+  .description {
+    @include font-size(16);
+    color: $granite;
+  }
+}

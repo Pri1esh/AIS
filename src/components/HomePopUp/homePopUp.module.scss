@@ -1,0 +1,21 @@
+.modalBody {
+  .modalHeader {
+    position: absolute;
+    right: 1rem;
+    border: none;
+    button {
+      background-color: white;
+      border-radius: 50%;
+    }
+    @media (max-width: 576px) {
+      right: 0;
+      position: relative;
+    }
+  }
+
+  .modalBox {
+    @media (max-width: 576px) {
+      padding: 5px;
+    }
+  }
+}

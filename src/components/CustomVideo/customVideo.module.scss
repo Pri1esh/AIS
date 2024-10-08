@@ -1,0 +1,85 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.mediaSection {
+  @include rem(line-height, 0);
+  position: relative;
+  width: 100%;
+
+  video {
+    @include rem(min-height, 375);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    max-height: 100%;
+  }
+
+  .iframeContainer {
+    overflow: hidden;
+    max-width: 100%;
+    height: 23.438rem;
+    position: relative;
+
+    @include media($sm, min) {
+      height: 56rem;
+    }
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .defaultSection {
+    position: relative;
+    height: 100%;
+  }
+
+  .overlay {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h2 {
+      @include font-size(16);
+      @include rem('line-height', 24);
+      color: $secondary;
+
+      @include media($sm, min) {
+        @include font-size(60);
+        @include rem('line-height', 80);
+      }
+    }
+
+    .playButton {
+      @include rem('margin-top', 32);
+      font-family: $source-sans-regular;
+      @include font-size(16);
+      font-weight: 600;
+
+      button {
+        @include rem('letter-spacing', 2);
+        background: transparent;
+        border: none;
+        color: $secondary;
+        text-transform: uppercase;
+
+        i {
+          @include rem(font-size, 16);
+          @include rem(margin-right, 8);
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

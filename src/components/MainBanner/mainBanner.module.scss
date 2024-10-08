@@ -1,0 +1,175 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background: $blue;
+  height: calc(100vh - 91px);
+  max-height: 47.75rem;
+  transition: linear 1000ms height;
+
+  @include media-min-max($sm, $lg) {
+    max-height: 27.625rem;
+  }
+
+  @include media($lg, min) {
+    @include rem(max-height, 1000);
+    height: calc(100vh - 152px);
+    align-items: center;
+  }
+
+  :global(.slick-list) {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  :global(.slick-slide) {
+    position: relative;
+    overflow: hidden;
+
+    &[aria-hidden='true'] {
+      visibility: hidden;
+      transition: all 1s ease;
+    }
+  }
+
+  .item {
+    max-height: 47.75rem;
+    height: calc(100vh - 91px);
+    transition: linear 1000ms height;
+
+    @include media-min-max($sm, $lg) {
+      max-height: 27.625rem;
+    }
+
+    @include media($lg, min) {
+      max-height: 100%;
+      height: calc(100vh - 152px);
+      transition: linear 1000ms height;
+    }
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      max-height: 47.75rem;
+      transition: ease all 0.3s;
+      height: calc(100vh - 91px);
+
+      @include media-min-max($sm, $lg) {
+        max-height: 27.625rem;
+      }
+
+      @include media($lg, min) {
+        @include rem(max-height, 1000);
+        height: calc(100vh - 152px);
+      }
+    }
+  }
+
+  :global(.slick-dots) {
+    position: absolute;
+    bottom: 1.5rem;
+    width: auto;
+    @include center(horizontal);
+
+    li {
+      width: 1rem;
+      @include padding(0, 10, 0, 10);
+
+      &:global(.slick-active) {
+        opacity: 1;
+
+        button {
+          &::before {
+            width: 0.875rem;
+            height: 0.875rem;
+            opacity: 1;
+            transition: ease all 0.3s;
+          }
+        }
+      }
+
+      button {
+        width: 1rem;
+
+        &::before {
+          width: 0.5rem;
+          height: 0.5rem;
+          @include border-radius(16px, 16px, 16px, 16px);
+          background: $secondary;
+          color: transparent;
+          opacity: 0.4;
+          @include center(both);
+          transition: ease all 0.3s;
+        }
+      }
+    }
+  }
+
+  .videoWrapper {
+    video {
+      object-fit: cover;
+      max-height: 47.75rem;
+      height: calc(100vh - 91px);
+
+      @include media-min-max($sm, $lg) {
+        max-height: 27.625rem;
+      }
+
+      @include media($lg, min) {
+        max-height: 100%;
+        height: calc(100vh - 152px);
+      }
+    }
+  }
+}
+
+.contentWrapper {
+  text-align: center;
+  color: $secondary;
+  z-index: $zindex-1;
+  width: 100%;
+  padding: 0 5%;
+  @include center(both);
+
+  .subHeading {
+    @include font-size(16);
+    @include rem(letter-spacing, 4);
+    @include margin(0, 0, 8, 0);
+    color: $secondary;
+    font-family: $ubuntu;
+    text-transform: uppercase;
+
+    @include media-min-max($sm, $lg) {
+      @include rem(letter-spacing, 3.5);
+    }
+  }
+
+  .heading {
+    color: $secondary;
+    @include font-size(50);
+    line-height: 3.75rem;
+    @include margin(0, 0, 32, 0);
+    font-family: $ubuntu-bold;
+
+    @include media($lg, min) {
+      @include font-size(80);
+      @include margin(0, 0, 32, 0);
+      line-height: 5.5rem;
+    }
+
+    @include media-min-max($sm, $lg) {
+      @include font-size(50);
+      line-height: 3.75rem;
+      @include margin(0, 0, 16, 0);
+    }
+  }
+}

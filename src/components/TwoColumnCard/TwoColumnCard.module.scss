@@ -1,0 +1,722 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.twoColumnCardWrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+
+  &.reverseColumn {
+    @include media($sm, min) {
+      flex-direction: row-reverse;
+    }
+
+    .textWrapper {
+      @include media($lg, min) {
+        @include rem(padding-left, 120);
+        margin-right: auto;
+        max-width: 31.5rem;
+        padding-right: 0;
+      }
+
+      @include media($xl, min) {
+        @include rem(padding-left, 120);
+        margin-left: 0;
+        margin-right: auto;
+        max-width: 37rem;
+        padding-right: 0;
+      }
+
+      @include media($xxxl, min) {
+        @include rem(padding-left, 120);
+        margin-left: 0;
+        margin-right: auto;
+        max-width: 43rem;
+        padding-right: 0;
+      }
+
+      @include media($xxxxl, min) {
+        @include rem(padding-left, 120);
+        @include rem(padding-right, 120);
+        margin-right: auto;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .mediaSection {
+    width: 100%;
+
+    @include media($sm, min) {
+      width: 50%;
+    }
+
+    @include media($lg, min) {
+      width: 48%;
+      min-height: auto;
+    }
+
+    .media,
+    video,
+    img,
+    iframe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &.twoColumnTextCardWrapper {
+    > div {
+      > div {
+        @include media($lg, min) {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
+        }
+      }
+    }
+
+    .textSection {
+      @include rem(min-height, 314);
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 2.5rem;
+
+      @include media($sm, min) {
+        @include rem(padding-top, 60);
+      }
+
+      @include media($lg, min) {
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+      }
+
+      @include media($sm, min) {
+        width: 50%;
+      }
+
+      .textWrapper {
+        .heading {
+          margin-bottom: 0.5rem;
+        }
+
+        @include media($xxxl, min) {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+.textSection {
+  width: 100%;
+  padding-bottom: 2.5rem;
+  padding-top: 3.75rem;
+
+  @include media($sm, min) {
+    width: 50%;
+  }
+
+  @include media($lg, min) {
+    width: 52%;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+
+  .textWrapper {
+    @include rem(padding-left, 20);
+    @include rem(padding-right, 20);
+
+    @include media($lg, min) {
+      @include rem(padding-right, 120);
+      margin-left: auto;
+      max-width: 31.5rem;
+      padding-left: 0;
+    }
+
+    @include media($xl, min) {
+      @include rem(padding-right, 120);
+      margin-left: auto;
+      max-width: 37rem;
+      padding-left: 0;
+    }
+
+    @include media($xxxl, min) {
+      @include rem(padding-right, 120);
+      margin-right: 0;
+      margin-left: auto;
+      max-width: 43rem;
+      padding-left: 0;
+    }
+
+    @include media($xxxxl, min) {
+      @include rem(padding-left, 120);
+      @include rem(padding-right, 120);
+      margin-right: auto;
+      max-width: 100%;
+    }
+
+    .subHeading {
+      @include rem(font-size, 14);
+      @include rem(margin-bottom, 12);
+      color: $granite;
+      position: relative;
+      transition: ease opacity 1s;
+    }
+
+    .heading {
+      @include rem(font-size, 40);
+      color: $blue;
+      margin-bottom: 1rem;
+      position: relative;
+      transition: ease opacity 1s;
+
+      @include media($md, min) {
+        @include rem(font-size, 50);
+      }
+
+      @include media($lgb, min) {
+        @include rem(font-size, 60);
+      }
+    }
+
+    .description {
+      @include rem(font-size, 16);
+      color: $granite;
+      margin-bottom: 2rem;
+      position: relative;
+      transition: ease opacity 1s;
+    }
+
+    .mainDescription {
+      @include rem(font-size, 24);
+      color: $windsortan;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .subDescription {
+      @include rem(font-size, 16);
+      color: $granite;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .buttonWrapper {
+      position: relative;
+      transition: ease opacity 1s;
+
+      &.subLink {
+        @include rem(margin-top, 16);
+      }
+    }
+
+    .itemList {
+      opacity: 1;
+
+      .itemHeading {
+        @include font-size(18);
+        @include text-shadow($darkcharcoal);
+        color: $darkcharcoal;
+        margin-bottom: 0.25rem;
+      }
+
+      .itemDescription {
+        margin-bottom: 1.5rem;
+
+        p {
+          @include font-size(16);
+          color: $granite;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &.darkTheme {
+    background-color: $blue;
+
+    .textWrapper {
+      .subHeading,
+      .heading,
+      .description,
+      .subDescription,
+      .buttonWrapper > a {
+        color: $secondary;
+      }
+    }
+  }
+
+  &.snowTheme {
+    background-color: $snow;
+
+    .textWrapper {
+      .heading {
+        color: $purple;
+      }
+    }
+  }
+
+  &.blueTheme {
+    background-color: $aliceblue;
+  }
+
+  &.purpleTheme {
+    background-color: $purple;
+
+    .textWrapper {
+      .subHeading,
+      .heading,
+      .description,
+      .mainDescription,
+      .subDescription,
+      .buttonWrapper > a {
+        color: $secondary;
+      }
+    }
+  }
+
+  &.darkBlueTheme {
+    background-color: $blue;
+
+    .textWrapper {
+      .subHeading,
+      .heading,
+      .description,
+      .mainDescription,
+      .subDescription,
+      .buttonWrapper > a {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.carouselCard {
+  position: relative;
+  overflow: hidden;
+  background-color: $blue;
+  padding-bottom: 2.5rem;
+
+  @include media($sm, min) {
+    padding-bottom: 0;
+  }
+
+  .textSection {
+    .textWrapper {
+      .mainDescription {
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+
+      .description {
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        @include media($sm, min) {
+          -webkit-line-clamp: 4;
+        }
+
+        @include media($xl, min) {
+          -webkit-line-clamp: 6;
+        }
+      }
+
+      .subDescription {
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .slider {
+    width: calc(100% + 1.25rem);
+    background-color: $blue;
+    padding-left: 1.25rem;
+
+    @include media($sm, min) {
+      width: 48%;
+      padding-bottom: 2.5rem;
+      padding-top: 3.75rem;
+      padding-left: 0;
+    }
+
+    @include media($md, min) {
+      padding-top: 6.25rem;
+      padding-bottom: 6.25rem;
+    }
+
+    .carouselMediaWrapper {
+      width: 100%;
+      height: 100%;
+
+      @include media($sm, min) {
+        padding: 0 0.938rem;
+      }
+
+      .carouselMedia {
+        position: relative;
+        // height: 30rem;
+
+        .mediaSection {
+          height: 100%;
+          width: 100%;
+
+          .media,
+          video,
+          img,
+          iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            padding: 0;
+            margin: 0;
+          }
+        }
+
+        .gradient {
+          width: 100%;
+          position: absolute;
+          background-image: linear-gradient(to top, $primary, rgba(0, 0, 0, 0));
+          height: 7.813rem;
+          opacity: 0.7;
+          bottom: 0;
+        }
+
+        .imageText {
+          position: absolute;
+          color: $secondary;
+          bottom: 0;
+          width: 100%;
+          padding: 2rem;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  :global(.slick-arrow) {
+    bottom: 2rem;
+
+    @include media($lg, min) {
+      bottom: 1rem;
+    }
+
+    &:global(.slick-prev) {
+      right: calc(100vw - 4.75rem);
+      left: unset;
+      bottom: -2rem;
+
+      @include media($md, min) {
+        right: calc(100vw - 5rem);
+        bottom: -2.5rem;
+      }
+
+      @include media($lg, min) {
+        right: unset;
+        left: -31.5rem;
+        bottom: -4rem;
+      }
+
+      @include media($xl, min) {
+        right: unset;
+        left: -37rem;
+        bottom: 0;
+      }
+
+      @include media($xxxl, min) {
+        right: unset;
+        left: -43rem;
+        bottom: 0;
+      }
+
+      @include media($xxxxl, min) {
+        right: calc(100vw - 10rem);
+        left: unset;
+      }
+    }
+
+    &:global(.slick-next) {
+      right: calc(100vw - 8.5rem);
+      bottom: -2rem;
+
+      @include media($md, min) {
+        right: calc(100vw - 8.5rem);
+        bottom: -2.5rem;
+      }
+
+      @include media($lg, min) {
+        right: unset;
+        left: -28rem;
+        bottom: -4rem;
+      }
+
+      @include media($xl, min) {
+        right: unset;
+        left: -33.5rem;
+        bottom: 0;
+      }
+
+      @include media($xxxl, min) {
+        right: unset;
+        left: -39.5rem;
+        bottom: 0;
+      }
+
+      @include media($xxxxl, min) {
+        right: calc(100vw - 13.5rem);
+        left: unset;
+      }
+    }
+  }
+}
+
+.cardHeading {
+  color: $secondary;
+  @include font-size(20);
+  font-weight: 700;
+}
+
+.locationWrapper {
+  @include font-size(16);
+
+  ul {
+    padding-left: 0;
+
+    li {
+      @include rem(padding-left, 30);
+      @include rem(margin-bottom, 12);
+      color: $secondary;
+      list-style-type: none;
+      position: relative;
+      font-family: $ubuntu;
+
+      i {
+        @include rem(top, 0);
+        position: absolute;
+        left: 0;
+        font-size: 1rem;
+      }
+
+      a {
+        color: $platinum;
+        text-decoration: none;
+
+        i {
+          margin-right: 0.4rem;
+
+          &:global(.icon-mail) {
+            font-size: 0.8rem;
+            margin-top: 0.1rem;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.accordionWrapper {
+  .item {
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-radius: 0;
+
+    .itemHeading {
+      button {
+        font-family: $ubuntu;
+        border: 0.063rem solid $gainsboro;
+        border-radius: 0;
+        box-shadow: none;
+        color: $granite;
+
+        &[aria-expanded='true'] {
+          background-color: $blue;
+          color: $secondary;
+
+          &:after {
+            filter: contrast(0) brightness(3.5);
+          }
+        }
+      }
+    }
+
+    .itemBody {
+      padding-left: 0;
+
+      ul {
+        padding-left: 1rem;
+
+        li {
+          margin-bottom: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+.listItemWrapper {
+  .listHeading {
+    @include rem(font-size, 24);
+    color: $baastrichtblue;
+    margin-bottom: 0.5rem;
+  }
+
+  .listItem {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+
+    li {
+      margin-bottom: 0.75rem;
+
+      span {
+        font-family: $ubuntu-bold;
+      }
+    }
+  }
+}
+
+.alignTextCenter {
+  @include media($sm, min) {
+    text-align: center;
+  }
+
+  > div {
+    > div {
+      @include media($xl, min) {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+      }
+    }
+  }
+}
+
+.technologyCard {
+  background-color: $purple;
+  @include padding(60, 0, 60, 0);
+
+  .paddingEnd {
+    @include rem(padding-right, 20);
+  }
+
+  @include media($md, min) {
+    @include padding(100, 0, 100, 0);
+  }
+
+  .textSection {
+    width: 100%;
+    padding: 0;
+
+    .textWrapper {
+      margin: 0;
+      padding: 0;
+
+      .heading,
+      .description {
+        color: $secondary;
+      }
+
+      .description {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.mediaWrapper {
+  @include rem(margin-bottom, 40);
+
+  img,
+  iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+  }
+
+  @include media($sm, min) {
+    @include rem(margin-bottom, 0);
+  }
+}
+
+.backgroundImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founderCard {
+  .founderOverview {
+    @include padding(60, 0, 40, 0);
+
+    @include media($md, min) {
+      @include padding(100, 0, 60, 0);
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+
+  .cardContainer {
+    background-color: $purple;
+  }
+
+  .mediaBox {
+    img {
+      @include rem(max-height, 600);
+      width: 100%;
+    }
+  }
+
+  .textBox {
+    @include padding(40, 20, 60, 20);
+
+    @include media($sm, min) {
+      @include rem(padding, 40);
+    }
+
+    h2 {
+      @include rem(margin-bottom, 12);
+      @include rem(font-size, 24);
+      color: $secondary;
+
+      @include media($sm, min) {
+        @include rem(font-size, 40);
+      }
+    }
+
+    .summary {
+      color: $secondary;
+
+      p {
+        @include rem(margin-bottom, 12);
+        color: $secondary;
+      }
+    }
+  }
+}

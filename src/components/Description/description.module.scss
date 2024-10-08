@@ -1,0 +1,39 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem(padding-bottom, 60);
+
+  @include media($md, min) {
+    @include rem(padding-bottom, 100);
+  }
+
+  h2 {
+    @include text-shadow($darkcharcoal);
+    @include rem(font-size, 24);
+    @include rem(margin-bottom, 24);
+    font-family: $ubuntu;
+    color: $baastrichtblue;
+  }
+
+  p {
+    @include rem(line-height, 24);
+    @include rem(margin-bottom, 24);
+
+    span {
+      @include text-shadow($darkcharcoal);
+    }
+
+    a {
+      color: $granite;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

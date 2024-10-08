@@ -1,0 +1,3254 @@
+{
+  "header": {
+    "logoSrc": "../assets/images/headerLogo.png",
+    "logoSrcSmall": "../assets/images/logoSmall.png",
+    "logoSrcHamburger": "../assets/images/logoSrcHamburger.svg",
+    "hamburgerBG": "../assets/images/hamburgerBG.svg",
+    "logoAlt": "Adani International School",
+    "url": "/",
+    "gtmData": {
+      "event": "icon_click",
+      "category": "user_interaction",
+      "sub_category": "top",
+      "title": "Adani International School",
+      "page_type": "homepage"
+    },
+    "navigation": [
+      {
+        "label": "Who We Are",
+        "url": "/who-we-are",
+        "target": "",
+        "isActive": true,
+        "isHighLighted": false,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Learning",
+        "url": "/learning",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Life at School",
+        "url": "/life-at-school",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Admissions",
+        "url": "/admissions",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": true,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Careers",
+        "url": "/careers",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Contact",
+        "url": "/contact-us",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "social": [
+      {
+        "url": "https://www.facebook.com/AdaniIntSchool",
+        "label": "facebook",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://twitter.com/AdaniIntSchool",
+        "label": "twitter",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.instagram.com/adaniintschool/",
+        "label": "instagram",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+        "label": "youtube",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/company/adani-int-school",
+        "label": "linkedin",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "contact": [
+      {
+        "url": "tel:+917925556888",
+        "label": "+91 79 2555 6888",
+        "type": "mobile",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "admissions@adaniinternational.edu.in",
+        "label": "admissions@adaniinternational.edu.in",
+        "type": "mail",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "seoData": {
+    "pageTitle": "Welcome to Adani International School",
+    "metaDescription": "Adani International School",
+    "metaKeywords": "Adani International School",
+    "metaTitle": "Adani International School",
+    "ogTitle": "Adani International School",
+    "robotsTags": "noindex, nofollow",
+    "browserTitle": "Adani International School",
+    "ogImage": "https://www.adaniinternationalschool.com/image.jpg",
+    "ogDescription": "Adani International School",
+    "ogKeyword": "Adani International School",
+    "canonicalUrl": "https://www.adaniinternationalschool.com/",
+    "googleSiteVerification": "NsrtBG1AEJXqImN7FAQ_4CFkSVcrx5NPf1cQs206jQU",
+    "msValidate": "2B0C34807FA5B7ACA277D5A725CDE76D",
+    "orgSchema": {
+      "telephone": "1800 108 0009",
+      "contactType": "Customer Service",
+      "areaServed": "India",
+      "streetAddress": "Address,",
+      "addressLocality": "Ahmedabad , Gujrat",
+      "addressRegion": "IN",
+      "postalCode": "382421",
+      "sameAs": [
+        "https://www.instagram.com/adaniinternationalschool/",
+        "https://www.facebook.com/adaniinternationalschool",
+        "https://twitter.com/adaniinternationalschool",
+        "https://www.linkedin.com/company/adaniinternationalschool",
+        "https://www.youtube.com/c/adaniinternationalschool"
+      ],
+      "contactOption": "Toll Free",
+      "logo": "https://www.adaniinternationalschool.com/logo.svg",
+      "url": "https://www.adaniinternationalschool.com/"
+    }
+  },
+  "mainBanner": {
+    "heading": "Events, News & Activities",
+    "subHeading": "STORIES",
+    "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageAlt": "imageAlt",
+    "link": "",
+    "target": "_self",
+    "linkText": "",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "banner_category": "",
+      "title": "",
+      "label": "Vision, Mission & Values",
+      "index": "0",
+      "page_type": "homepage"
+    }
+  },
+  "subNav": [
+    {
+      "url": "/stories",
+      "label": "Overview",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    },
+    {
+      "url": "/stories/latest-stories",
+      "label": "Latest/ Related Stories",
+      "target": "",
+      "active": true,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    },
+    {
+      "url": "/stories/all-activities",
+      "label": "All Activities",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    }
+  ],
+  "latestStories": {
+    "heading": "Latest/ Related Stories",
+    "noData": "No story available",
+    "showDataDesktop": 9,
+    "showDataMobile": 6,
+    "loadMore": "Load More",
+    "storiesData": [
+      {
+        "id": "1",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "2",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "3",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "",
+          "index": "0",
+          "page_type": ""
+        }
+      },
+      {
+        "id": "4",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "5",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "6",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "7",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "8",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "9",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "10",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "",
+          "index": "",
+          "page_type": ""
+        }
+      },
+      {
+        "id": "11",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "12",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "13",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "14",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "",
+          "index": "",
+          "page_type": ""
+        }
+      },
+      {
+        "id": "15",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "16",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "March", "id": "mar" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Mar 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "17",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "March", "id": "mar" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Mar 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "18",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "March", "id": "mar" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Mar 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "/url",
+        "target": "",
+        "readMore": "Read more",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "",
+          "index": "",
+          "page_type": ""
+        }
+      },
+      {
+        "id": "19",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "March", "id": "mar" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Mar 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "20",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "March", "id": "mar" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Mar 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "21",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "22",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "23",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "24",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "25",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "26",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "27",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "28",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "29",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "30",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "31",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "June", "id": "jun" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jun 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "32",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "June", "id": "jun" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jun 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "33",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "June", "id": "jun" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jun 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "34",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "June", "id": "jun" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jun 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "35",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "June", "id": "jun" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jun 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "36",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "37",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "38",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "39",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "40",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "41",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "August", "id": "aug" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Aug 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "42",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "August", "id": "aug" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Aug 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "43",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "August", "id": "aug" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Aug 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "44",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "August", "id": "aug" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Aug 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "45",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "August", "id": "aug" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Aug 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "46",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "October", "id": "oct" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Oct 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "47",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "October", "id": "oct" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Oct 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "48",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "October", "id": "oct" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Oct 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "49",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "October", "id": "oct" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Oct 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "50",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "October", "id": "oct" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Oct 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "51",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "52",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "53",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "54",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "55",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "56",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "57",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "58",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "59",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "60",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "61",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Feb 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "62",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "April", "id": "apr" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Apr 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "63",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "May", "id": "may" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 May 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "64",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "65",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "November", "id": "nov" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Nov 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "66",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "July", "id": "jul" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jul 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "67",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "December", "id": "dec" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Dec 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "68",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "69",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "70",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "71",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "72",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "73",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "74",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "75",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "76",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "77",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "78",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis."
+      },
+      {
+        "id": "79",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "80",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "81",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Annual Day",
+            "id": "annualday"
+          },
+          { "placeholder": "Select Month", "label": "February", "id": "feb" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Annual Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "82",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Sports Day",
+            "id": "sportsday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Sports Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "83",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Picnic Day",
+            "id": "picnicday"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Picnic Day",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "84",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Christmas",
+            "id": "christmas"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Christmas",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "id": "85",
+        "filter": [
+          {
+            "placeholder": "Select Stories type",
+            "label": "Health Awareness",
+            "id": "healthawareness"
+          },
+          { "placeholder": "Select Month", "label": "January", "id": "jan" }
+        ],
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "cardDate": "09 Jan 2023",
+        "cardHeading": "Health Awareness",
+        "cardDescription": "A field trip to the office of the Superintendent of Polic, Gaandhinagar, aim of learning experiences and some more text to test ellipsis.",
+        "cardLink": "#",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "quicklinks": {
+      "title": "Quick Links:",
+      "list": [
+        {
+          "url": "/who-we-are",
+          "label": "Who We Are",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/infrastructure",
+          "label": "Our Infrastructure",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/admissions/transportation",
+          "label": "Transportation",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/stories",
+          "label": "Stories",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/careers",
+          "label": "Careers",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "footerlinks": [
+      {
+        "title": "Learning",
+        "list": [
+          {
+            "url": "/learning/our-approach",
+            "label": "Our Approach",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/academics",
+            "label": "Academics",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/technology-innovation",
+            "label": "Technology & Innovation",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Life at School",
+        "list": [
+          {
+            "url": "/life-at-school/co-curricular",
+            "label": "Beyond Curriculum",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Pastoral Care & Well being",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/sports",
+            "label": "Creativity & Sports",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/health-safety",
+            "label": "Health & Safety",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Admission",
+        "list": [
+          {
+            "url": "/admissions",
+            "label": "Admission Overview",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Inquire Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/admissions/enrol-now",
+            "label": "Enrol Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/faqs",
+            "label": "FAQs",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      }
+    ],
+    "copyRight": {
+      "copyRightText": "© 2023 Adani International School",
+      "list": [
+        {
+          "url": "/privacy",
+          "label": "Privacy",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/url",
+          "label": "Legal",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/terms-and-conditions",
+          "label": "Terms",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "schoolInfo": {
+      "schoolLogo": "assets/images/logo.svg",
+      "alt": "Adani International School",
+      "social": [
+        {
+          "url": "https://www.facebook.com/AdaniIntSchool",
+          "label": "facebook",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://twitter.com/AdaniIntSchool",
+          "label": "twitter",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.instagram.com/adaniintschool/",
+          "label": "instagram",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+          "label": "youtube",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.linkedin.com/company/adani-int-school",
+          "label": "linkedin",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ],
+      "contact": [
+        {
+          "url": "",
+          "detail": "Adani International School Adani Estate Management Pvt. Ltd, 1st Floor, CBD, Shantigram, Near Vaishnodevi Circle, SG Road, Ahmedabad 382421",
+          "label": "location"
+        },
+        {
+          "url": "mailto:admissions@adani.com",
+          "detail": "admissions@adani.com",
+          "label": "mail",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "tel:+917925556888",
+          "detail": "+91 79 2555 6888",
+          "label": "mobile",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    }
+  }
+}

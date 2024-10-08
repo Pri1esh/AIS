@@ -1,0 +1,32 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem(padding-top, 60);
+  @include rem(padding-bottom, 60);
+
+  @include media($lg, min) {
+    @include rem(padding-top, 100);
+    @include rem(padding-bottom, 100);
+  }
+}
+
+.sliderContainer {
+  padding: 0 1.25rem;
+
+  @include media($sm, min) {
+    padding: 0;
+  }
+}
+
+.darkTheme {
+  background-color: $blue;
+}
+
+.snowTheme {
+  background-color: $snow;
+}
+
+.lightBlueTheme {
+  background-color: $aliceblue;
+}

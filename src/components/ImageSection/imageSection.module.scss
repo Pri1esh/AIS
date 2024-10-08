@@ -1,0 +1,59 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.imageSectionWrapper {
+  @include margin(0, 0, 100, 0);
+
+  .overview {
+    padding-bottom: 3.65rem;
+  }
+
+  @include media($lg, min) {
+    row-gap: 3.75rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.875rem;
+    margin: 0 -0.938rem;
+  }
+
+  .imageSection {
+    flex: 0 0 100%;
+    padding: 0 0.938rem;
+
+    @include media($md, min) {
+      flex: 0 0 33.33%;
+    }
+
+    @include media-min-max($sm, $md) {
+      flex: 0 0 50%;
+    }
+
+    a {
+      text-decoration: none;
+      color: $darkcharcoal;
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+      position: relative;
+
+      .featureImage {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .imgTitle {
+      @include font-size(18);
+      color: $baastrichtblue;
+      width: 100%;
+      font-family: $ubuntu-bold;
+      margin-top: 1.25rem;
+    }
+  }
+}

@@ -1,0 +1,1752 @@
+{
+  "header": {
+    "logoSrc": "../assets/images/headerLogo.png",
+    "logoSrcSmall": "../assets/images/logoSmall.png",
+    "logoSrcHamburger": "../assets/images/logoSrcHamburger.svg",
+    "hamburgerBG": "../assets/images/hamburgerBG.svg",
+    "logoAlt": "Adani International School",
+    "url": "/",
+    "gtmData": {
+      "event": "icon_click",
+      "category": "user_interaction",
+      "sub_category": "top",
+      "title": "Adani International School",
+      "page_type": "homepage"
+    },
+    "navigation": [
+      {
+        "label": "Who We Are",
+        "url": "/who-we-are",
+        "target": "",
+        "isActive": true,
+        "isHighLighted": false,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Learning",
+        "url": "/learning",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Life at School",
+        "url": "/life-at-school",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Admissions",
+        "url": "/admissions",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": true,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Careers",
+        "url": "/careers",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Contact",
+        "url": "/contact-us",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "social": [
+      {
+        "url": "https://www.facebook.com/AdaniIntSchool",
+        "label": "facebook",
+        "imageSource": "../assets/images/twitter-new.svg",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://twitter.com/AdaniIntSchool",
+        "label": "twitter",
+        "imageSource": "../assets/images/twitter-new.svg",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.instagram.com/adaniintschool/",
+        "label": "instagram",
+        "imageSource": "../assets/images/twitter-new.svg",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+        "label": "youtube",
+        "imageSource": "../assets/images/twitter-new.svg",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/company/adani-int-school",
+        "label": "linkedin",
+        "imageSource": "../assets/images/twitter-new.svg",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "contact": [
+      {
+        "url": "tel:+917925556888",
+        "label": "+91 79 2555 6888",
+        "type": "mobile",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "admissions@adaniinternational.edu.in",
+        "label": "admissions@adaniinternational.edu.in",
+        "type": "mail",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "cookies": {
+    "heading": "This website uses cookies",
+    "description": "Kindly accept cookies and continue using our website for a smoother experience.",
+    "decline": "Decline",
+    "acceptCookies": "Accept Cookies",
+    "gtmData": {
+      "event": "learn_more",
+      "category": "user_interaction",
+      "sub_category": "cookies",
+      "label": "Accept Cookies",
+      "page_type": "homepage"
+    }
+  },
+  "conditions": {
+    "text": "* Grades 10 and 12 shall commence from the academic session (2024-25), with the current students (Session 2023-24) from Grades 9 and 11 being promoted to their next respective classes."
+  },
+  "seoData": {
+    "pageTitle": "Welcome to Adani International School",
+    "metaDescription": "Adani International School",
+    "metaKeywords": "Adani International School",
+    "metaTitle": "Adani International School",
+    "ogTitle": "Adani International School",
+    "robotsTags": "noindex, nofollow",
+    "browserTitle": "Adani International School",
+    "ogImage": "https://www.adaniinternationalschool.com/image.jpg",
+    "ogDescription": "Adani International School",
+    "ogKeyword": "Adani International School",
+    "canonicalUrl": "https://www.adaniinternationalschool.com/",
+    "googleSiteVerification": "NsrtBG1AEJXqImN7FAQ_4CFkSVcrx5NPf1cQs206jQU",
+    "msValidate": "2B0C34807FA5B7ACA277D5A725CDE76D",
+    "orgSchema": {
+      "telephone": "1800 108 0009",
+      "contactType": "Customer Service",
+      "areaServed": "India",
+      "streetAddress": "Address,",
+      "addressLocality": "Ahmedabad , Gujrat",
+      "addressRegion": "IN",
+      "postalCode": "382421",
+      "sameAs": [
+        "https://www.instagram.com/adaniinternationalschool/",
+        "https://www.facebook.com/adaniinternationalschool",
+        "https://twitter.com/adaniinternationalschool",
+        "https://www.linkedin.com/company/adaniinternationalschool",
+        "https://www.youtube.com/c/adaniinternationalschool"
+      ],
+      "contactOption": "Toll Free",
+      "logo": "https://www.adaniinternationalschool.com/logo.svg",
+      "url": "https://www.adaniinternationalschool.com/"
+    }
+  },
+  "mainBanner": {
+    "subHeading": "Welcome to",
+    "heading": "Adani International School",
+    "link": "#",
+    "target": "_self",
+    "linkText": "Admission Open",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "banner_category": "",
+      "title": "",
+      "label": "Vision, Mission & Values",
+      "index": "0",
+      "page_type": "homepage"
+    },
+    "data": [
+      {
+        "mediaType": "image",
+        "imageSource": "https://www.adaniinternationalschool.org/-/media/EBF579D16C2B4D46A2A39EA7FB734B17.ashx",
+        "imageSourceMobile": "https://www.adaniinternationalschool.org/-/media/EBF579D16C2B4D46A2A39EA7FB734B17.ashx",
+        "imageSourceTablet": "https://www.adaniinternationalschool.org/-/media/EBF579D16C2B4D46A2A39EA7FB734B17.ashx",
+        "imageAlt": "imageAlt",
+        "videoSource": "",
+        "videoSourceMobile": "",
+        "videoSourceTablet": "",
+        "videoSourceOgg": "",
+        "videoSourceMobileOgg": "",
+        "videoSourceTabletOgg": "",
+        "autoplay": "",
+        "isOverlayRequired": "",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "mediaType": "image",
+        "imageSource": "https://www.adaniinternationalschool.org/assets/adanischool/images/academics-hero.jpg",
+        "imageSourceMobile": "https://www.adaniinternationalschool.org/assets/adanischool/images/academics-hero.jpg",
+        "imageSourceTablet": "https://www.adaniinternationalschool.org/assets/adanischool/images/academics-hero.jpg",
+        "imageAlt": "imageAlt",
+        "videoSource": "",
+        "videoSourceMobile": "",
+        "videoSourceTablet": "",
+        "videoSourceOgg": "",
+        "videoSourceMobileOgg": "",
+        "videoSourceTabletOgg": "",
+        "autoplay": "",
+        "isOverlayRequired": "",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "title": "",
+          "label": "Vision, Mission & Values",
+          "index": "0",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "mediaType": "video",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "videoSource": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceMobile": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceTablet": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "videoSourceMobileOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "videoSourceTabletOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "autoplay": true,
+        "isOverlayRequired": false,
+        "posterImage": "",
+        "uploadDate": "2023-01-10T08:00:00+08:00",
+        "seoDescription": "Adani International School",
+        "seoName": "Adani International School",
+        "videoDuration": "",
+        "gtmVideoStart": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "page_type": "homepage",
+          "video_action": ""
+        },
+        "gtmVideoProgress": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "video_percent": "10%",
+          "page_type": "homepage"
+        },
+        "gtmVideoComplete": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "video_action": "",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "welcomeCard": {
+    "data": [
+      {
+        "theme": "snow",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "video",
+        "subHeading": "Who We Are",
+        "heading": "Why are We Unique?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Learn More",
+        "videoSource": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceMobile": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceTablet": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "videoSourceOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "videoSourceMobileOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "videoSourceTabletOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "defaultVideoSource": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "defaultVideoSourceMobile": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "defaultVideoSourceTablet": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4",
+        "defaultVideoSourceOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "defaultVideoSourceMobileOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "defaultVideoSourceTabletOgg": "https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.ogg",
+        "playText": "Play",
+        "autoplayVideo": true,
+        "posterImage": "",
+        "imageAlt": "imageAlt",
+        "uploadDate": "2023-01-10T08:00:00+08:00",
+        "seoDescription": "Adani International School",
+        "seoName": "Adani International School",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        },
+        "gtmVideoStart": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "page_type": "homepage",
+          "video_action": ""
+        },
+        "gtmVideoProgress": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "video_percent": "10%",
+          "page_type": "homepage"
+        },
+        "gtmVideoComplete": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "title": "",
+          "label": "",
+          "video_duration": 100,
+          "video_action": "",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "variant": "card"
+  },
+  "admissionCards": {
+    "data": [
+      {
+        "theme": "purple",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "text",
+        "subHeading": "Admission",
+        "heading": "Enrol Now",
+        "subDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Start Your Journey",
+        "imageAlt": "imageAlt",
+        "backgroundImage": "https://placehold.jp/24/912da0/912da0/100x100.png",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage",
+          "click_text": ""
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "text",
+        "subHeading": "Inquiry",
+        "heading": "Ask Us",
+        "subDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Submit Your Query",
+        "imageAlt": "imageAlt",
+        "backgroundImage": "https://placehold.jp/24/2d3c8c/2d3c8c/100x100.png",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "banner_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage",
+          "click_text": ""
+        }
+      }
+    ],
+    "variant": "text"
+  },
+  "ourApproachCard": {
+    "data": [
+      {
+        "theme": "blue",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "Our Approach",
+        "heading": "Holistic Development",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Learn More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "variant": "card"
+  },
+  "lifeAtSchool": {
+    "heading": "A Place to Grow",
+    "subHeading": "Life at School",
+    "description": "Life at Adani International School is focused on opportunities, skills, mutual respect and lasting friendships.",
+    "sectionID": "lifeatschool",
+    "theme": "dark",
+    "link": "#",
+    "target": "_self",
+    "linkText": "Learn More",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "sub_category": "",
+      "label": "Vision, Mission & Values",
+      "page_type": "homepage"
+    },
+    "gallery": [
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Arts",
+        "description": "Giving opportunities to showcase creativity.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Sports",
+        "description": "Combining physical development with focus and teamwork.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Clubs & Activities",
+        "description": "Explore various interests by participating in a host of activities.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Life at School",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "ourInfrastructure": {
+    "heading": "Infrastructural Excellence",
+    "subHeading": "Our Infrastructure",
+    "description": "In an effort to provide an all-around education to its students, our IB candidate* school is equipped with high-end yet comfortable…",
+    "btnText": "View All Photos",
+    "btnLink": "#",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "sub_category": "",
+      "label": "Vision, Mission & Values",
+      "page_type": "homepage"
+    },
+    "gallery": [
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Pre- Primary",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Library",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Science Lab",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Label Text",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Label Text",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Label Text",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Our Infrastructure",
+        "label": "Label Text",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "stories": {
+    "heading": "Events, News & Activities",
+    "subHeading": "Stories",
+    "description": "Our days at Adani International School are full of learning, fun, celebrations and a lots of visits from experts from various fields. Check out what's brewing on our campus here.",
+    "sectionID": "stories",
+    "theme": "snow",
+    "variant": "secondary",
+    "link": "#",
+    "target": "_self",
+    "linkText": "View All",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "sub_category": "",
+      "label": "Vision, Mission & Values",
+      "page_type": "homepage"
+    },
+    "gallery": [
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Activities",
+        "description": "SOF- International General Knowledge Olympiad (2022- 2023)",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Event",
+        "description": "Christmas Idol by Club Kalidas Rangmanch",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Activities",
+        "heading": "Clubs & Activities",
+        "description": "Kankaria Zoo Visit",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Stories",
+        "heading": "Kindness",
+        "description": "Lorem Ipsum is simply dummy text",
+        "date": "Jan 07, 2023",
+        "link": "/url",
+        "target": "_self"
+      }
+    ]
+  },
+  "learning": {
+    "heading": "Curriculum and Co-curricular",
+    "subHeading": "Learning",
+    "description": "A child learns in many ways - questioning adults, collaborating with peers, and experiencing the world through his or her unique perspective.",
+    "btnText": "Learn More",
+    "btnLink": "#",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "sub_category": "",
+      "label": "Vision, Mission & Values",
+      "page_type": "homepage"
+    },
+    "gallery": [
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Pre-Primary",
+        "heading": "Pre-Primary",
+        "description": "Nursery to KG 2",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Primary",
+        "heading": "Primary",
+        "description": "Grade 1 to Grade 5",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      }
+    ],
+
+    "academicDetails": [
+      {
+        "heading": "New Academic Session for 2023",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": "",
+        "description": "",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "heading": "Secondary",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "description": "Grade 9 & Grade 10*",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "heading": "Middle",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "description": "Grade 6 to Grade 8",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "heading": "Senior Secondary",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "description": "Grade 11 & Grade 12*",
+        "link": "#",
+        "target": "_self",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "features": [
+      {
+        "theme": "darkBlue",
+        "heading": "1:11",
+        "description": "Teacher & Student ratio",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Adani International School"
+      },
+      {
+        "theme": "purple",
+        "heading": "232 sq.ft",
+        "description": "Constructed area per child",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Adani International School"
+      },
+      {
+        "theme": "darkBlue",
+        "heading": "60%",
+        "description": "Open & Sustainable green campus",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Adani International School"
+      },
+      {
+        "theme": "purple",
+        "heading": "9",
+        "description": "Clubs & Studios",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Adani International School"
+      }
+    ]
+  },
+  "faqs": {
+    "viewAllLink": "/url",
+    "viewAllLabel": "View All",
+    "sectionHeading": "Frequently Asked Questions",
+    "target": "",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "sub_category": "",
+      "label": "Vision, Mission & Values",
+      "page_type": "homepage"
+    },
+    "data": [
+      {
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "categoryID": "pedagogy",
+        "categoryHeading": "Pedagogy",
+        "questionID": "pedagogy1"
+      },
+      {
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "categoryID": "pedagogy",
+        "categoryHeading": "Pedagogy",
+        "questionID": "pedagogy2"
+      },
+      {
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "categoryID": "pedagogy",
+        "categoryHeading": "Pedagogy",
+        "questionID": "pedagogy3"
+      },
+      {
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "categoryID": "pedagogy",
+        "categoryHeading": "Pedagogy",
+        "questionID": "pedagogy4"
+      },
+      {
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "categoryID": "pedagogy",
+        "categoryHeading": "Pedagogy",
+        "questionID": "pedagogy5"
+      }
+    ]
+  },
+  "footer": {
+    "quicklinks": {
+      "title": "Quick Links:",
+      "list": [
+        {
+          "url": "/who-we-are",
+          "label": "Who We Are",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/infrastructure",
+          "label": "Our Infrastructure",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/admissions/transportation",
+          "label": "Transportation",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/stories",
+          "label": "Stories",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/careers",
+          "label": "Careers",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "footerlinks": [
+      {
+        "title": "Learning",
+        "list": [
+          {
+            "url": "/learning/our-approach",
+            "label": "Our Approach",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/academics",
+            "label": "Academics",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/technology-innovation",
+            "label": "Technology & Innovation",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Life at School",
+        "list": [
+          {
+            "url": "/life-at-school/co-curricular",
+            "label": "Beyond Curriculum",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Pastoral Care & Well being",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/sports",
+            "label": "Creativity & Sports",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/health-safety",
+            "label": "Health & Safety",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Admission",
+        "list": [
+          {
+            "url": "/admissions",
+            "label": "Admission Overview",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Inquire Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/admissions/enrol-now",
+            "label": "Enrol Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/faqs",
+            "label": "FAQs",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      }
+    ],
+    "copyRight": {
+      "copyRightText": "© 2023 Adani International School",
+      "list": [
+        {
+          "url": "/privacy",
+          "label": "Privacy",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/url",
+          "label": "Legal",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/terms-and-conditions",
+          "label": "Terms",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "schoolInfo": {
+      "schoolLogo": "assets/images/logo.svg",
+      "alt": "Adani International School",
+      "social": [
+        {
+          "url": "https://www.facebook.com/AdaniIntSchool",
+          "label": "facebook",
+          "imageSource": "../assets/images/twitter-new.svg",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://twitter.com/AdaniIntSchool",
+          "label": "twitter",
+          "imageSource": "../assets/images/twitter-new.svg",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.instagram.com/adaniintschool/",
+          "label": "instagram",
+          "imageSource": "../assets/images/twitter-new.svg",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+          "label": "youtube",
+          "imageSource": "../assets/images/twitter-new.svg",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.linkedin.com/company/adani-int-school",
+          "label": "linkedin",
+          "imageSource": "../assets/images/twitter-new.svg",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ],
+      "contact": [
+        {
+          "url": "",
+          "detail": "Adani International School Adani Estate Management Pvt. Ltd, 1st Floor, CBD, Shantigram, Near Vaishnodevi Circle, SG Road, Ahmedabad 382421",
+          "label": "location"
+        },
+        {
+          "url": "mailto:admissions@adani.com",
+          "detail": "admissions@adani.com",
+          "label": "mail",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "tel:+917925556888",
+          "detail": "+91 79 2555 6888",
+          "label": "mobile",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    }
+  }
+}

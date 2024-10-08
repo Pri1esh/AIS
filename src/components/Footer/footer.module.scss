@@ -1,0 +1,295 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.footerWrapper {
+  @include font-size(16);
+  font-family: $source-sans-regular;
+  background-color: $blue;
+  color: $secondary;
+  padding: 3.75rem 0;
+
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+
+    &.footerNav {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        @include rem(padding-bottom, 12);
+        @include rem(padding-right, 16);
+        @include rem(padding-right, 0);
+        font-family: $source-sans-regular;
+        flex: 0 0 100%;
+        position: relative;
+        list-style: none;
+
+        .socialBlock {
+          a {
+            &:hover {
+              text-decoration: none;
+            }
+
+            i {
+              @include font-size(20);
+            }
+
+            img {
+              @include rem(width, 20);
+              margin-right: 0;
+            }
+          }
+        }
+
+        @include media($sm, min) {
+          flex: 0 0 21%;
+        }
+
+        img {
+          display: inline;
+          width: 45%;
+          @include rem(margin-right, 10);
+
+          @include media-min-max($sm, $lg) {
+            width: 70%;
+          }
+        }
+
+        @include media-min-max($sm, $lg) {
+          flex: 0 0 33.3%;
+
+          &.schoolInfo {
+            @include rem(margin-bottom, 50);
+            flex: 0 0 100%;
+            display: flex;
+            gap: 2.5rem;
+
+            .footerLogo {
+              @include rem(margin-bottom, 0);
+              width: 100%;
+            }
+          }
+
+          &.quickLinks {
+            display: block;
+          }
+        }
+
+        &.schoolInfo {
+          @include media($md, min) {
+            min-width: 35%;
+            @include rem(padding-right, 60);
+          }
+
+          li {
+            position: relative;
+            @include rem(padding-left, 32);
+            @include rem(padding-right, 0);
+
+            div.iconWrapper {
+              @include font-size(18);
+              position: absolute;
+              left: 0;
+              top: 0;
+              display: flex;
+              line-height: 1.5rem;
+
+              i {
+                font-size: 0.8rem;
+              }
+
+              &:hover {
+                text-decoration: none;
+              }
+            }
+
+            &.socialBlock {
+              @include rem(padding-left, 0);
+              @include rem(margin-top, 20);
+
+              > div {
+                display: flex;
+                column-gap: 1.875rem;
+                font-size: 0.75rem;
+              }
+            }
+          }
+
+          @include rem(padding-bottom, 24);
+          @include rem(margin-bottom, 40);
+          border-bottom: 0.0625rem solid $white-opaque-1;
+
+          @include media($sm, min) {
+            @include rem(padding-bottom, 12);
+            border-bottom: none;
+          }
+        }
+
+        &.quickLinks {
+          @include rem(padding-bottom, 28);
+          order: 2;
+
+          @include media($sm, min) {
+            border-bottom: 0.0625rem solid $white-opaque-1;
+            order: unset;
+            @include rem(margin-bottom, 39);
+            @include rem(padding-bottom, 40);
+            flex: 0 0 100%;
+            display: flex;
+          }
+
+          @include media($md, min) {
+            @include rem(margin-bottom, 72);
+            @include rem(padding-bottom, 27);
+          }
+
+          @include media-min-max($sm, $lg) {
+            display: block;
+          }
+        }
+
+        a {
+          @include font-size(16);
+          @include rem(margin-right, 8);
+          color: $platinum;
+          text-decoration: none;
+
+          &:hover {
+            @include text-shadow($secondary);
+          }
+        }
+      }
+
+      p {
+        @include text-shadow($secondary);
+        @include rem(padding-bottom, 20);
+        @include rem(margin-bottom, 0);
+        @include font-size(16);
+        font-family: $source-sans-regular;
+        color: $secondary;
+        position: relative;
+        line-height: 1.4;
+
+        i {
+          @include font-size(8);
+          position: absolute;
+          right: 0;
+          transition: ease all 0.3s;
+          transform: rotate(180deg);
+          top: 0.25rem;
+
+          @include media($sm, min) {
+            display: none;
+          }
+        }
+
+        &.active {
+          i {
+            transform: rotate(0deg);
+          }
+        }
+      }
+    }
+  }
+
+  .footerDivider {
+    height: 0.0625rem;
+    background-color: $secondary;
+    opacity: 0.1;
+  }
+
+  .footerLogo {
+    @include rem(margin-bottom, 24);
+    display: block;
+  }
+
+  .quickLinks {
+    p {
+      @include rem(padding-right, 16);
+    }
+
+    .footerLinkList {
+      a {
+        color: $platinum;
+        display: block;
+
+        @include media($sm, min) {
+          @include rem(padding-right, 32);
+          display: inline;
+        }
+      }
+    }
+  }
+
+  .footerLinkList {
+    a {
+      @include rem(margin-bottom, 16);
+      display: block;
+      color: $platinum;
+
+      &:hover {
+        text-decoration: none;
+        @include text-shadow($secondary);
+      }
+    }
+
+    @include media($sm, max) {
+      &.active {
+        @include rem(margin-top, 8);
+        @include rem(max-height, 1000);
+        @include rem(margin-bottom, 16);
+        transition: ease all 0.3s;
+      }
+
+      overflow: hidden;
+      max-height: 0;
+      transition: ease all 0.2s;
+    }
+  }
+
+  .copyRight {
+    @include rem(margin-bottom, 0);
+    @include rem(padding-top, 40);
+    @include font-size(14);
+    color: $platinum;
+
+    ul {
+      display: flex;
+      @include rem(margin-top, 20);
+
+      li {
+        list-style-type: disc;
+        @include rem(margin-left, 25);
+        @include rem(padding-left, 8);
+
+        &:first-child {
+          @include rem(margin-left, 0);
+          @include rem(padding-left, 0);
+          list-style-type: none;
+        }
+
+        a {
+          @include font-size(14);
+          @include rem(margin-right, 8);
+          color: $platinum;
+          text-decoration: none;
+
+          @include media($sm, min) {
+            @include font-size(16);
+          }
+        }
+      }
+    }
+
+    @include media($sm, min) {
+      @include font-size(16);
+      display: flex;
+      justify-content: space-between;
+
+      ul {
+        @include rem(margin-top, 0);
+      }
+    }
+  }
+}

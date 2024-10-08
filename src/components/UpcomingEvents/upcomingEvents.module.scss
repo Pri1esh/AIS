@@ -1,0 +1,98 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.cardContainer {
+  background: $snow;
+  @include rem(padding-top, 60);
+  @include rem(padding-bottom, 60);
+
+  @include media($sm, min) {
+    @include rem(padding-top, 100);
+    @include rem(padding-bottom, 100);
+  }
+
+  .heading {
+    @include rem('margin-bottom', 32);
+    @include font-size(40);
+    color: $purple;
+
+    @include media($lg, min) {
+      @include rem('margin-bottom', 60);
+      @include font-size(60);
+    }
+  }
+}
+
+.wrapper {
+  @include media($sm, min) {
+    width: calc(100% + 2.5rem);
+  }
+
+  @include media($lg, min) {
+    width: calc(100% + 1.875rem);
+  }
+
+  :global(.slick-prev) {
+    top: -3.5rem;
+    right: 5.5rem;
+    left: unset;
+
+    @include media($lg, min) {
+      top: -5.5rem;
+    }
+  }
+
+  :global(.slick-next) {
+    top: -3.5rem;
+    right: 1.875rem;
+
+    @include media($lg, min) {
+      top: -5.5rem;
+    }
+  }
+
+  .card {
+    position: relative;
+
+    @include media($sm, min) {
+      margin-right: 1.875rem;
+    }
+  }
+
+  .cardDetails {
+    position: absolute;
+    bottom: 0;
+    padding: 1.25rem;
+    color: $secondary;
+
+    @include media($lg, min) {
+      padding: 1.5rem;
+    }
+
+    .cardDate {
+      @include font-size(14);
+      @include rem(margin-bottom, 12);
+    }
+
+    .cardHeading {
+      color: inherit;
+      @include font-size(20);
+      @include rem(margin-bottom, 12);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .cardDescription {
+      @include font-size(16);
+      @include rem(margin-bottom, 0);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: $darkcharcoal;
+  font-family: $source-sans-regular;
+  text-transform: capitalize;
+  display: inline-block;
+
+  &.primary {
+    background: $blue;
+    color: $secondary;
+    border: 0.063rem solid $blue;
+    min-width: 160px;
+    text-align: center;
+    @include padding(13, 24, 15, 24);
+    @include border-radius(28px, 28px, 28px, 28px);
+
+    @include media($lg, min) {
+      @include padding(13, 46, 15, 46);
+    }
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &.secondary {
+    color: $secondary;
+    text-decoration: underline;
+
+    &:hover {
+      @include text-shadow($secondary);
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+
+  &:hover {
+    @include text-shadow($blue);
+    color: $blue;
+  }
+
+  &.underline {
+    @include text-shadow($darkcharcoal);
+    color: $darkcharcoal;
+    text-decoration: underline;
+
+    &:hover {
+      color: $darkcharcoal;
+      text-decoration: none;
+    }
+  }
+
+  &.lightUnderline {
+    @include text-shadow($secondary);
+    color: $secondary;
+    text-decoration: underline;
+
+    &:hover {
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+
+  &.darkUnderline {
+    color: $granite;
+    text-decoration: underline;
+    text-decoration-color: $denim;
+    text-underline-offset: 0.375rem;
+
+    &:hover {
+      color: $granite;
+      text-decoration: underline;
+      text-decoration-color: $denim;
+      text-underline-offset: 0.375rem;
+    }
+  }
+
+  &.bordered {
+    border: 0.063rem solid $blue;
+    color: $darkcharcoal;
+    min-width: 160px;
+    text-align: center;
+    @include padding(13, 24, 15, 24);
+    @include border-radius(28px, 28px, 28px, 28px);
+
+    @include media($lg, min) {
+      @include padding(13, 46, 15, 46);
+    }
+
+    &:hover {
+      background: $blue;
+      color: $secondary;
+    }
+  }
+
+  &.button {
+    @include text-shadow($darkcharcoal);
+    @include font-size(16);
+    padding: 0.813rem 3.313rem 0.875rem 3.313rem;
+    border-radius: 2.5rem;
+    text-transform: capitalize;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    background-color: $secondary;
+    transition: linear 0.2s background-color;
+
+    @include media($lg, min) {
+      &:hover {
+        background-color: $blue;
+        color: $secondary;
+        text-decoration: none;
+        transition: linear 0.2s background-color;
+      }
+    }
+  }
+
+  &.anchor {
+    display: block;
+  }
+}

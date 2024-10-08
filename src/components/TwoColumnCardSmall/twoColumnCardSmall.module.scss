@@ -1,0 +1,73 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.cardSection {
+  @include padding(60, 0, 60, 0);
+
+  @include media($md, min) {
+    @include padding(100, 0, 100, 0);
+  }
+}
+
+.card {
+  &.aliceBlue {
+    background-color: $aliceblue;
+
+    .heading {
+      color: $blue;
+    }
+
+    .description {
+      color: $granite;
+    }
+  }
+
+  &.snowTheme {
+    background-color: $snow;
+
+    .heading {
+      color: $purple;
+    }
+
+    .description {
+      color: $granite;
+    }
+  }
+
+  &.cardMargin {
+    @include rem(margin-bottom, 30);
+
+    @include media($sm, min) {
+      @include rem(margin-bottom, 40);
+    }
+
+    @include media($lg, min) {
+      @include rem(margin-bottom, 60);
+    }
+  }
+
+  .textCard {
+    @include padding(40, 20, 44, 20);
+
+    @include media($md, min) {
+      @include rem(padding, 60);
+    }
+
+    .heading {
+      @include rem(margin-bottom, 16);
+      @include rem(font-size, 40);
+    }
+  }
+
+  .imageArea {
+    padding: 0;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: left;
+    }
+  }
+}

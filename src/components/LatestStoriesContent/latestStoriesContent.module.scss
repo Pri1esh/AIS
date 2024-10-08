@@ -1,0 +1,76 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem('padding-top', 100);
+  @include rem('padding-bottom', 100);
+
+  .heading {
+    @include font-size(40);
+    @include rem('padding-bottom', 40);
+    color: $blue;
+
+    @include media($lg, min) {
+      @include font-size(60);
+      @include rem('padding-bottom', 60);
+    }
+  }
+
+  .storiesWrapper {
+    @include rem('row-gap', 40);
+    @include rem('padding-bottom', 40);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+
+    @include media($sm, min) {
+      margin: 0 -0.625rem;
+    }
+
+    @include media($lg, min) {
+      @include rem('row-gap', 60);
+      @include rem('padding-bottom', 60);
+      margin: 0 -0.938rem;
+    }
+
+    .storyWrapper {
+      flex: 0 0 100%;
+      padding: 0;
+      max-width: 100%;
+
+      @include media($sm, min) {
+        flex: 0 0 50%;
+        padding: 0 0.625rem;
+        max-width: 50%;
+      }
+
+      @include media($lg, min) {
+        flex: 0 0 33.33%;
+        padding: 0 0.938rem;
+        max-width: 33.33%;
+      }
+    }
+  }
+
+  .loaderContainer {
+    text-align: center;
+
+    button {
+      @include font-size(16);
+      font-family: $ubuntu-bold;
+      color: $darkcharcoal;
+      background: transparent;
+      border: transparent;
+      padding: 0;
+      text-decoration: underline;
+      width: auto;
+
+      &:hover {
+        text-decoration: none;
+        background: transparent;
+        text-decoration: none;
+
+      }
+    }
+  }
+}

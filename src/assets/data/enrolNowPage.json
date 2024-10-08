@@ -1,0 +1,1142 @@
+{
+  "header": {
+    "logoSrc": "../assets/images/headerLogo.png",
+    "logoSrcSmall": "../assets/images/logoSmall.png",
+    "logoSrcHamburger": "../assets/images/logoSrcHamburger.svg",
+    "hamburgerBG": "../assets/images/hamburgerBG.svg",
+    "logoAlt": "Adani International School",
+    "url": "/",
+    "gtmData": {
+      "event": "icon_click",
+      "category": "user_interaction",
+      "sub_category": "top",
+      "title": "Adani International School",
+      "page_type": "homepage"
+    },
+    "navigation": [
+      {
+        "label": "Who We Are",
+        "url": "/who-we-are",
+        "target": "",
+        "isActive": true,
+        "isHighLighted": false,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Learning",
+        "url": "/learning",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Life at School",
+        "url": "/life-at-school",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Admissions",
+        "url": "/admissions",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": true,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Careers",
+        "url": "/careers",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Contact",
+        "url": "/contact-us",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "social": [
+      {
+        "url": "https://www.facebook.com/AdaniIntSchool",
+        "label": "facebook",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://twitter.com/AdaniIntSchool",
+        "label": "twitter",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.instagram.com/adaniintschool/",
+        "label": "instagram",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+        "label": "youtube",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/company/adani-int-school",
+        "label": "linkedin",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "contact": [
+      {
+        "url": "tel:+917925556888",
+        "label": "+91 79 2555 6888",
+        "type": "mobile",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "admissions@adaniinternational.edu.in",
+        "label": "admissions@adaniinternational.edu.in",
+        "type": "mail",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "seoData": {
+    "pageTitle": "Welcome to Adani International School",
+    "metaDescription": "Adani International School",
+    "metaKeywords": "Adani International School",
+    "metaTitle": "Adani International School",
+    "ogTitle": "Adani International School",
+    "robotsTags": "noindex, nofollow",
+    "browserTitle": "Adani International School",
+    "ogImage": "https://www.adaniinternationalschool.com/image.jpg",
+    "ogDescription": "Adani International School",
+    "ogKeyword": "Adani International School",
+    "canonicalUrl": "https://www.adaniinternationalschool.com/",
+    "googleSiteVerification": "NsrtBG1AEJXqImN7FAQ_4CFkSVcrx5NPf1cQs206jQU",
+    "msValidate": "2B0C34807FA5B7ACA277D5A725CDE76D",
+    "orgSchema": {
+      "telephone": "1800 108 0009",
+      "contactType": "Customer Service",
+      "areaServed": "India",
+      "streetAddress": "Address,",
+      "addressLocality": "Ahmedabad , Gujrat",
+      "addressRegion": "IN",
+      "postalCode": "382421",
+      "sameAs": [
+        "https://www.instagram.com/adaniinternationalschool/",
+        "https://www.facebook.com/adaniinternationalschool",
+        "https://twitter.com/adaniinternationalschool",
+        "https://www.linkedin.com/company/adaniinternationalschool",
+        "https://www.youtube.com/c/adaniinternationalschool"
+      ],
+      "contactOption": "Toll Free",
+      "logo": "https://www.adaniinternationalschool.com/logo.svg",
+      "url": "https://www.adaniinternationalschool.com/"
+    }
+  },
+  "mainBanner": {
+    "heading": "Admissions 2023-2024",
+    "subHeading": "Admission Overview",
+    "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageAlt": "imageAlt",
+    "link": "#",
+    "target": "_self",
+    "linkText": "Enrol Now",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "banner_category": "",
+      "title": "",
+      "label": "Vision, Mission & Values",
+      "index": "0",
+      "page_type": "homepage"
+    }
+  },
+  "subNav": [
+    {
+      "url": "/admissions",
+      "label": "Overview",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    },
+    {
+      "url": "/admissions/enrol-now",
+      "label": "Enrol Now",
+      "target": "",
+      "active": true,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    },
+    {
+      "url": "/admissions/why-us",
+      "label": "Why Us?",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    },
+    {
+      "url": "/admissions/transportation",
+      "label": "Transportation",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "homepage"
+      }
+    }
+  ],
+  "overview": {
+    "heading": "Submit an Application",
+    "description": "We are accepting applications for admissions, both in online and offline mode. You could download the form from the website or visit us at our campus to know more information about the admission process.",
+    "button": [
+      {
+        "url": "/url",
+        "label": "Apply Online",
+        "variant": "primary",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "/url",
+        "label": "Download Form",
+        "variant": "bordered",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage",
+          "type": "pdf",
+          "title": ""
+        }
+      }
+    ]
+  },
+  "admissionDocuments": {
+    "heading": "Documents for Admission",
+    "data": [
+      {
+        "subHeading": "During Form Submission",
+        "description": [
+          {
+            "label": "Self attested photocopy of Birth Certificate which has the name of both parents mentioned on it."
+          },
+          {
+            "label": "Self attested proof of residence (Ration Card/ Voter Id/ Electricity or Water Bill/ Tenant's Deed/ Aadhaar)."
+          },
+          {
+            "label": "Two passport size photographs of the student/applicant."
+          }
+        ]
+      },
+      {
+        "subHeading": "At the time of Admission",
+        "description": [
+          {
+            "label": "Self attested Aadhaar Card photocopy of the student/applicant."
+          },
+          {
+            "label": "Blood Group report of the child."
+          },
+          {
+            "label": "Medical report/Medical history/ Vaccination record of the child."
+          },
+          {
+            "label": "Attested copies of legal document if the child is being brought up by a single parent."
+          },
+          {
+            "label": "Affidavit of guardianship to be submitted if student lives with a local guardian. (Extra enclosures for Grades other than Grade Nursery to 1)",
+            "subDescription": [
+              {
+                "label": "Conduct/Bonafide Certificate."
+              },
+              {
+                "label": "Marksheet/Report Card of the student (For Grades 2 and above)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subHeading": "After admission",
+        "description": [
+          {
+            "label": "Original Transfer Certificate from the last school.  (To be Submitted within 15 days of admission, or else the admission stands cancelled)"
+          }
+        ]
+      }
+    ]
+  },
+  "submissionDetail": {
+    "sectionID": "",
+    "data": [
+      {
+        "theme": "darkBlue",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "",
+        "heading": "Submission Details",
+        "description": "Admission forms can be filled Online or can be downloaded an Offline form, or can be collected from the school’s front office.",
+        "link": "",
+        "target": "_self",
+        "linkText": "",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "videoSource": "",
+        "videoSourceMobile": "",
+        "videoSourceTablet": "",
+        "defaultVideoSource": "",
+        "defaultVideoSourceMobile": "",
+        "defaultVideoSourceTablet": "",
+        "defaultVideoSourceOgg": "",
+        "defaultVideoSourceMobileOgg": "",
+        "defaultVideoSourceTabletOgg": "",
+        "mapSource": "",
+        "imageAlt": "imageAlt",
+        "gtmData": {
+          "event": "",
+          "category": "",
+          "sub_category": "",
+          "label": "Vision, Mission & Values",
+          "page_type": "homepage"
+        },
+        "cardHeading": "Submit the filled-in form",
+        "locationData": [
+          {
+            "url": "",
+            "detail": "Adani International School Adani Estate Management Pvt. Ltd, 1st Floor, CBD, Shantigram, Near Vaishnodevi Circle, SG Road, Ahmedabad 382421",
+            "label": "location",
+            "link": "#",
+            "target": "_self",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "detail": "<b>Monday to Friday</b> 8:30 AM to 4:30 PM",
+            "label": "clock",
+            "link": "",
+            "target": "_self",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "detail": "<b>Saturday</b> 8:30 AM to 12:30 PM",
+            "label": "",
+            "link": "",
+            "target": "_self",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      }
+    ],
+    "variant": "card"
+  },
+  "ageCriteria": {
+    "heading": "Age Criteria for Academic Year 2023 - 24",
+    "data": {
+      "th": [
+        {
+          "label": "Grade"
+        },
+        {
+          "label": "Child’s age by 01st Jun 2023"
+        },
+        {
+          "label": "DOB"
+        }
+      ],
+      "td": [
+        [
+          {
+            "label": "Nursery"
+          },
+          {
+            "label": "3 yrs"
+          },
+          {
+            "label": "01st June 2020"
+          }
+        ],
+        [
+          {
+            "label": "Nursery"
+          },
+          {
+            "label": "3 yrs"
+          },
+          {
+            "label": "01st June 2020"
+          }
+        ],
+        [
+          {
+            "label": "Nursery"
+          },
+          {
+            "label": "3 yrs"
+          },
+          {
+            "label": "01st June 2020"
+          }
+        ]
+      ]
+    }
+  },
+  "footer": {
+    "quicklinks": {
+      "title": "Quick Links:",
+      "list": [
+        {
+          "url": "/who-we-are",
+          "label": "Who We Are",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/infrastructure",
+          "label": "Our Infrastructure",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/admissions/transportation",
+          "label": "Transportation",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/stories",
+          "label": "Stories",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/careers",
+          "label": "Careers",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "footerlinks": [
+      {
+        "title": "Learning",
+        "list": [
+          {
+            "url": "/learning/our-approach",
+            "label": "Our Approach",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/academics",
+            "label": "Academics",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/learning/technology-innovation",
+            "label": "Technology & Innovation",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Life at School",
+        "list": [
+          {
+            "url": "/life-at-school/co-curricular",
+            "label": "Beyond Curriculum",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Pastoral Care & Well being",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/sports",
+            "label": "Creativity & Sports",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/life-at-school/health-safety",
+            "label": "Health & Safety",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      },
+      {
+        "title": "Admission",
+        "list": [
+          {
+            "url": "/admissions",
+            "label": "Admission Overview",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Inquire Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/admissions/enrol-now",
+            "label": "Enrol Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          },
+          {
+            "url": "/faqs",
+            "label": "FAQs",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage",
+              "section_title": ""
+            }
+          }
+        ]
+      }
+    ],
+    "copyRight": {
+      "copyRightText": "© 2023 Adani International School",
+      "list": [
+        {
+          "url": "/privacy",
+          "label": "Privacy",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/url",
+          "label": "Legal",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+
+        {
+          "url": "/terms-and-conditions",
+          "label": "Terms",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "schoolInfo": {
+      "schoolLogo": "assets/images/logo.svg",
+      "alt": "Adani International School",
+      "social": [
+        {
+          "url": "https://www.facebook.com/AdaniIntSchool",
+          "label": "facebook",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://twitter.com/AdaniIntSchool",
+          "label": "twitter",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.instagram.com/adaniintschool/",
+          "label": "instagram",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+          "label": "youtube",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.linkedin.com/company/adani-int-school",
+          "label": "linkedin",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ],
+      "contact": [
+        {
+          "url": "",
+          "detail": "Adani International School Adani Estate Management Pvt. Ltd, 1st Floor, CBD, Shantigram, Near Vaishnodevi Circle, SG Road, Ahmedabad 382421",
+          "label": "location"
+        },
+        {
+          "url": "mailto:admissions@adani.com",
+          "detail": "admissions@adani.com",
+          "label": "mail",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "tel:+917925556888",
+          "detail": "+91 79 2555 6888",
+          "label": "mobile",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    }
+  }
+}

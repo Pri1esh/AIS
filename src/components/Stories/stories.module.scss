@@ -1,0 +1,77 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.wrapper {
+  @include padding(60, 0, 60, 0);
+
+  @include media($sm, min) {
+    @include padding(100, 0, 100, 0);
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    @include rem(font-size, 24);
+    @include rem(margin-bottom, 4);
+    color: $baastrichtblue;
+
+    @include media($sm, min) {
+      @include rem(margin-bottom, 24);
+    }
+  }
+
+  a {
+    color: $baastrichtblue;
+  }
+}
+
+.storyCard {
+  display: flex;
+
+  .imageBox {
+    @include rem(max-width, 120);
+    @include rem(height, 120);
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .textArea {
+    @include padding(0, 16, 0, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .upcomingEvent {
+      @include rem(width, 130);
+      @include rem(height, 24);
+      @include rem(border-radius, 12);
+      @include rem(font-size, 14);
+      @include padding(1, 12, 3, 12);
+      color: $secondary;
+      background-color: $beer;
+      text-align: center;
+    }
+
+    h3 {
+      @include rem(font-size, 18);
+      @include rem(min-height, 44);
+      color: $baastrichtblue;
+    }
+
+    span {
+      @include rem(font-size, 14);
+    }
+  }
+}
+
+.storyLink {
+  text-decoration: none;
+}

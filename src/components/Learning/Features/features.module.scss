@@ -1,0 +1,103 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include media($lg, min) {
+    flex-wrap: nowrap;
+    @include margin(100, 0, 100, 0);
+  }
+
+  @include margin(60, 0, 60, 0);
+
+  @include media($sm, min) {
+    flex-wrap: nowrap;
+  }
+
+  @include media($sm, max) {
+    @include margin(60, 16, 60, 16);
+  }
+
+  > div {
+    position: relative;
+    width: 100%;
+    padding: 0;
+
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.darkBlueTheme {
+  background-color: $blue;
+}
+
+.purpleTheme {
+  background-color: $purple;
+}
+
+.academicInner {
+  .academicDescription {
+    position: relative;
+    z-index: 1;
+    @include padding(100, 0, 100, 0);
+
+    @include media($sm, min) {
+      @include padding(38, 10, 38, 10);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    @include media($lg, min) {
+      @include padding(100, 0, 100, 0);
+    }
+
+    .academicDescriptionData {
+      @include media($sm, min) {
+        width: 100%;
+      }
+
+      h4 {
+        color: $secondary;
+        @include font-size(52);
+        line-height: 3.75rem;
+        text-align: center;
+
+        @include media-min-max($sm, $lg) {
+          @include font-size(30);
+          @include rem(margin-bottom, 8);
+          line-height: 1;
+        }
+
+        @include media($md, min) {
+          @include rem(margin-bottom, 12);
+        }
+      }
+
+      p {
+        color: $secondary;
+        @include font-size(16);
+        text-align: center;
+        line-height: 1.5rem;
+        width: 63%;
+        margin: 0 auto;
+
+        @include media-min-max($sm, $md) {
+          width: auto;
+        }
+      }
+    }
+  }
+}

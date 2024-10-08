@@ -1,0 +1,41 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.wrapper {
+  max-width: 32.5rem;
+  position: relative;
+  z-index: $zindex-1;
+  padding-bottom: 1.5rem;
+
+  @include media($sm, min) {
+    padding-bottom: 0;
+  }
+
+  @include media($md, min) {
+    @include rem(max-width, 800);
+  }
+
+  .subHeading {
+    color: $granite;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .heading {
+    color: $purple;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    @include media($sm, min) {
+      line-height: 4.25rem;
+      font-size: 3.75rem;
+    }
+  }
+
+  .description {
+    color: $granite;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}

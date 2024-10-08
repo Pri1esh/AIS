@@ -1,0 +1,56 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.cardContainer {
+  @include rem(padding-bottom, 60);
+
+  .details {
+    @include padding(60, 0, 40, 0);
+
+    .heading {
+      @include rem(font-size, 40);
+      margin-bottom: 1rem;
+
+      @include media($lg, min) {
+        @include rem(font-size, 60);
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    @include media($md, min) {
+      @include padding(100, 0, 60, 0);
+    }
+  }
+}
+
+.wrapper {
+  display: block;
+  position: relative;
+  border: 0.063rem solid $spanishsray;
+
+  img {
+    width: 100%;
+    @include rem(max-height, 380);
+  }
+
+  &::after {
+    @include rem(height, 6);
+    position: absolute;
+    content: '';
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #1c84a6, #386bb2 25%, #7356a3 49%, #903b94 72%, #c54961);
+  }
+}
+
+.cardColumn {
+  @include rem(margin-bottom, 30);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
