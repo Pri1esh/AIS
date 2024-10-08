@@ -1,4 +1,9 @@
-.modalBody {
+.modalBox {
+
+  :global(.modal-dialog){
+    width: fit-content;
+  }
+  
   .modalHeader {
     position: absolute;
     right: 1rem;
@@ -13,9 +18,15 @@
     }
   }
 
-  .modalBox {
+  .modalBody {
+    max-height: 92vh;
+    width: fit-content;
     @media (max-width: 576px) {
       padding: 5px;
     }
+    .modalImage{
+      max-height: 88vh;
+    }
   }
 }
+
