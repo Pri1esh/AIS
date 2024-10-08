@@ -1,0 +1,181 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.wrapper {
+  position: relative;
+  padding: 0 1.25rem;
+  background: $snow;
+
+  @include media($sm, min) {
+    padding: 0 0 1.25rem;
+    @include rem(min-height, 400);
+  }
+
+  @include media($lg, min) {
+    padding: 0 0 1.5rem;
+    @include rem(min-height, 540);
+  }
+
+  @include media-min-max($md, $lg) {
+    padding: 0 0 1rem;
+    @include rem(min-height, 410);
+  }
+
+  :global(.slick-list) {
+    padding-left: 9.25vw;
+
+    :global(.slick-track) {
+      display: flex;
+      column-gap: 1.25rem;
+      align-items: baseline;
+      -webkit-transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+      transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+
+      @include media($md, min) {
+        column-gap: 1.875rem;
+      }
+
+      @include media-min-max($md, $lg) {
+        column-gap: 1.25rem;
+      }
+
+      :global(.slick-slide) {
+        .item {
+          width: 27vw;
+          position: relative;
+          transition: ease all 0.6s;
+
+          img {
+            width: 27vw;
+            object-fit: cover;
+            height: 60vh;
+            transition: ease all 0.5s;
+            transition-delay: 0.8s;
+            max-height: 20rem;
+            object-position: top left;
+
+            @include media-min-max($sm, $md) {
+              @include rem(max-height, 344);
+            }
+
+            @include media($lg, min) {
+              max-height: 100%;
+              @include rem(height, 420);
+            }
+          }
+
+          span {
+            @include padding(20, 28, 20, 28);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: $secondary;
+            z-index: $zindex-1;
+          }
+        }
+      }
+
+      :global(.slick-active) {
+        + {
+          :global(.slick-active) {
+            + {
+              :global(.slick-active) {
+                .item {
+                  width: 27vw;
+                  transition: ease all 0.3s;
+
+                  img {
+                    width: 100%;
+                    height: 70vh;
+                    transition: ease all 0.8s;
+                    max-height: 23.75rem;
+
+                    @include media($lg, min) {
+                      max-height: 100%;
+                      @include rem(height, 510);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  :global(.slick-arrow) {
+    top: -3.75rem;
+    overflow: hidden;
+
+    &:global(.slick-prev) {
+      right: calc(((100% - 720px) / 2) + 70px);
+      left: unset;
+
+      @include media($md, min) {
+        right: calc(((100% - 60rem) / 2) + 70px);
+      }
+
+      @include media($lgb, min) {
+        right: calc(((100% - 71.25rem) / 2) + 70px);
+      }
+
+      @include media($xxxl, min) {
+        right: calc(((100% - 82.5rem) / 2) + 70px);
+      }
+    }
+
+    &:global(.slick-next) {
+      right: calc(((100% - 720px) / 2) + 15px);
+
+      @include media($md, min) {
+        right: calc(((100% - 60rem) / 2) + 0.938rem);
+      }
+
+      @include media($lgb, min) {
+        right: calc(((100% - 71.25rem) / 2) + 0.938rem);
+      }
+
+      @include media($xxxl, min) {
+        right: calc(((100% - 82.5rem) / 2) + 0.938rem);
+      }
+    }
+  }
+
+  @include media($sm, max) {
+    .item {
+      position: relative;
+
+      a {
+        color: $secondary;
+        @include font-size(18);
+      }
+
+      span {
+        position: absolute;
+        left: 0.75rem;
+        bottom: 0.75rem;
+        min-width: 8.125rem;
+        padding: 0.75rem 0.5rem;
+        z-index: $zindex-1;
+      }
+
+      img {
+        min-height: 25rem;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .gradientWrapper {
+    position: absolute;
+    opacity: 0.7;
+    background-image: linear-gradient(to top, $primary, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 12.5rem;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}

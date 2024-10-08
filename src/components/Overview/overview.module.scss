@@ -1,0 +1,68 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding-bottom: 3.75rem;
+  padding-top: 3.75rem;
+  position: relative;
+
+  @include media($md, min) {
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+  }
+}
+
+.heading {
+  @include rem(font-size, 40);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: $zindex-1;
+
+  @include media($lg, min) {
+    @include rem(font-size, 60);
+  }
+}
+
+.subHeading {
+  @include rem(font-size, 12);
+  color: $granite;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  margin: 0;
+  font-size: 1rem;
+  color: $granite;
+  position: relative;
+  z-index: $zindex-1;
+}
+
+.headOfSchool {
+  @include font-size(18);
+  margin-bottom: 0;
+}
+
+.designation {
+  @include font-size(14);
+  margin-bottom: 0;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 1rem;
+  opacity: 1;
+  position: relative;
+  transition: ease opacity 1s;
+  @include rem(margin-top, 32);
+}
+
+.image {
+  width: 100%;
+}
+
+.backgroundImage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}

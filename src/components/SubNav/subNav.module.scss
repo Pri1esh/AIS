@@ -1,0 +1,60 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.navWrapper {
+  bottom: 0rem;
+  width: 100%;
+  background: $blue;
+
+  .pageNavWrapper {
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+
+    .pageNav {
+      @include padding(18, 20, 18, 20);
+      @include rem(margin-bottom, 0);
+      max-width: 100%;
+      list-style: none;
+      text-align: center;
+      overflow-x: auto;
+      display: -webkit-inline-box;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .pageNavItem {
+        white-space: nowrap;
+        text-align: center;
+
+        a {
+          @include padding(0, 10, 0, 10);
+          @include margin(0, 5, 0, 5);
+          @include rem(font-size, 16);
+          font-family: $source-sans-regular;
+          @include rem(padding-bottom, 6);
+          border-bottom: 0.0625rem solid transparent;
+          color: $secondary;
+          text-decoration: none;
+          position: relative;
+          border-radius: 0;
+
+          @include media($sm, min) {
+            @include margin(0, 20, 0, 20);
+          }
+
+          &:hover {
+            @include text-shadow($secondary);
+          }
+
+          &.activeNavItem {
+            @include rem(padding-bottom, 6);
+            @include text-shadow($secondary);
+            border-bottom: 0.125rem solid $secondary;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.sideNavWrapper {
+  width: 100%;
+  background-color: $snow;
+  margin-right: 3.5rem;
+  position: sticky;
+  top: 5.5rem;
+
+  .sideNavList {
+    list-style: none;
+    margin: 0;
+    padding: 1.25rem 0;
+
+    .sideNavItem {
+      cursor: pointer;
+
+      .sideNavItemLink {
+        @include font-size(16);
+        text-decoration: none;
+        color: $purple;
+        padding: 0.6rem 0.625rem;
+        display: block;
+
+        @include media($lg, min) {
+          padding: 1.25rem 1.75rem;
+        }
+      }
+
+      .sideNavSubItemLink {
+        @include font-size(16);
+        text-decoration: none;
+        color: $purple;
+        padding: 0.6rem 0.625rem 0.6rem 3rem;
+        display: block;
+
+        @include media($lg, min) {
+          padding: 1.25rem 1.75rem 1.25rem 3.5rem;
+        }
+      }
+
+      &.activeItem {
+        background-color: $blue;
+
+        .sideNavItemLink,.sideNavSubItemLink {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+.mobileWrapper {
+  .sideNavHeading {
+    @include font-size(16);
+    padding-bottom: 2.125rem;
+    color: $darkcharcoal;
+    @include text-shadow($darkcharcoal);
+
+    .downArrow {
+      position: absolute;
+      transform: rotate(180deg);
+      margin-left: 1.063rem;
+      line-height: 1.75rem;
+      transition: ease all 0.3s;
+
+      &.active {
+        transform: rotate(0deg);
+        line-height: 1.25rem;
+        transition: ease all 0.3s;
+      }
+
+      i {
+        font-size: 0.4rem;
+      }
+    }
+  }
+
+  .dropdown {
+    position: absolute;
+    margin-top: -1rem;
+    z-index: $zindex-2;
+    width: 100%;
+
+    .sideNavWrapper {
+      max-width: 14.38rem;
+      background-color: $secondary;
+
+      .sideNavList {
+        padding: 0.25rem 0;
+
+        .sideNavItem {
+          .sideNavItemLink,.sideNavSubItemLink {
+            color: $darkcharcoal;
+          }
+
+          &.activeItem {
+            background-color: $snow;+
+
+            .sideNavItemLink,.sideNavSubItemLink {
+              @include text-shadow($darkcharcoal);
+            }
+          }
+        }
+      }
+    }
+  }
+}

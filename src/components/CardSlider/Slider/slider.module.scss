@@ -1,0 +1,245 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.wrapper {
+  position: relative;
+
+  > div {
+    @include rem(margin-left, -20);
+    @include rem(margin-right, -20);
+
+    @include media($sm, min) {
+      padding: 0 0;
+      @include rem(margin-left, 0);
+      @include rem(margin-right, 0);
+    }
+  }
+
+  .item {
+    position: relative;
+
+    img {
+      object-fit: cover;
+    }
+
+    .textWrapper {
+      @include rem(padding, 20);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      &:after {
+        @include rem(height, 200);
+        content: '';
+        opacity: 0.5;
+        background-image: linear-gradient(to top, $primary, rgba(0, 0, 0, 0) 100%);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      h3 {
+        @include font-size(14);
+        @include rem(margin-bottom, 8);
+        color: $secondary;
+        position: relative;
+        z-index: 1;
+      }
+
+      p {
+        @include font-size(18);
+        color: $secondary;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 0.5rem;
+
+        &:last-child {
+          @include font-size(14);
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .headingWrapper {
+      .impression {
+        @include font-size(10);
+        @include rem(border-radius, 12);
+        color: $darkcharcoal;
+        background-color: $secondary;
+        padding: 0.313rem 1rem;
+        position: absolute;
+        top: 1.25rem;
+        left: 1.25rem;
+      }
+
+      h3 {
+        @include font-size(18);
+        @include rem(margin-top, 16);
+        @include rem(margin-bottom, 0);
+        @include rem(line-height, 24);
+        color: $baastrichtblue;
+      }
+    }
+
+    .textContainer {
+      background-color: $secondary;
+      padding: 1.5rem 1.25rem;
+      @include rem(min-height, 150);
+
+      h3 {
+        @include font-size(18);
+        @include rem(padding, 0);
+        @include rem(margin, 0);
+        @include rem(margin-bottom, 8);
+        color: $darkcharcoal;
+      }
+
+      p {
+        @include rem(margin-bottom, 0);
+        @include rem(min-height, 48);
+        text-transform: none;
+        color: $granite;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+
+  h3 {
+    @include font-size(24);
+    @include rem(margin-top, 24);
+    @include rem(margin-bottom, 12);
+    font-family: $ubuntu;
+    color: $blue;
+    font-weight: 600;
+  }
+
+  .highlight {
+    @include rem(margin-top, 12);
+    font-weight: 600;
+  }
+
+  :global(.slick-track) {
+    @include rem(margin-left, 20);
+
+    > div:last-child {
+      @include rem(margin-right, 20);
+    }
+
+    @include media($md, min) {
+      margin-left: calc(((100% - 60rem) / 2) - 0.938rem);
+
+      > div:last-child {
+        margin-right: calc(((100vw - 60rem) / 2) - 0.938rem);
+      }
+    }
+
+    @include media($lgb, min) {
+      margin-left: calc(((100% - 71.25rem) / 2) - 0.938rem);
+
+      > div:last-child {
+        margin-right: calc(((100vw - 71.25rem) / 2) - 0.938rem);
+      }
+    }
+
+    @include media($xxxl, min) {
+      margin-left: calc(((100% - 82.5rem) / 2) - 0.938rem);
+
+      > div:last-child {
+        margin-right: calc(((100vw - 82.5rem) / 2) - 0.938rem);
+      }
+    }
+  }
+
+  :global(.slick-list) {
+    :global(.slick-track) {
+      display: flex;
+      column-gap: 1.25rem;
+      -webkit-transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+      transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+
+      @include media($md, min) {
+        column-gap: 1.875rem;
+      }
+
+      @include media-min-max($md, $lg) {
+        column-gap: 1.25rem;
+      }
+
+      :global(.slick-slide) {
+        > div {
+          display: block;
+        }
+
+        .item {
+          position: relative;
+          transition: ease all 0.6s;
+
+          img {
+            object-fit: cover;
+            object-position: top left;
+            transition: ease all 0.5s;
+            transition-delay: 0.7s;
+            width: 100%;
+
+            @include media($lg, min) {
+              @include rem(max-height, 400);
+            }
+          }
+
+          span {
+            position: absolute;
+            left: 0.75rem;
+            bottom: 0.75rem;
+            background: $secondary;
+            min-width: 8.125rem;
+            padding: 0.75rem 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  :global(.slick-arrow) {
+    top: -3.75rem;
+    overflow: hidden;
+
+    &:global(.slick-prev) {
+      right: calc(((100% - 720px) / 2) + 70px);
+      left: unset;
+
+      @include media($md, min) {
+        right: calc(((100% - 60rem) / 2) + 70px);
+      }
+
+      @include media($lgb, min) {
+        right: calc(((100% - 71.25rem) / 2) + 70px);
+      }
+
+      @include media($xxxl, min) {
+        right: calc(((100% - 82.5rem) / 2) + 70px);
+      }
+    }
+
+    &:global(.slick-next) {
+      right: calc(((100% - 720px) / 2) + 15px);
+
+      @include media($md, min) {
+        right: calc(((100% - 60rem) / 2) + 0.938rem);
+      }
+
+      @include media($lgb, min) {
+        right: calc(((100% - 71.25rem) / 2) + 0.938rem);
+      }
+
+      @include media($xxxl, min) {
+        right: calc(((100% - 82.5rem) / 2) + 0.938rem);
+      }
+    }
+  }
+}

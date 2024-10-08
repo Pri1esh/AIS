@@ -1,0 +1,41 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding: 2rem 0;
+
+  @include media($sm, min) {
+    @include padding(60, 0, 60, 0);
+  }
+
+  @include media($md, min) {
+    @include padding(100, 0, 100, 0);
+  }
+
+  .detailsWrapper {
+    margin: 0;
+
+    @include media($lg, min) {
+      @include rem('margin-left', 36);
+    }
+
+    .overview {
+      padding-top: 0;
+      padding-bottom: 3.75rem;
+
+      img {
+        @include rem(margin-top, 40);
+      }
+    }
+  }
+}
+
+.sideNavWrapper {
+  width: 100%;
+  flex: 100%;
+
+  @include media($lg, min) {
+    width: 25%;
+    flex: 0 0 auto;
+  }
+}

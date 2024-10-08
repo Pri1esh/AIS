@@ -1,0 +1,106 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem(min-height, 520);
+  position: relative;
+  background: $dolphingray;
+  transition: ease all 0.3s;
+
+  @include media($sm, min) {
+    @include rem(min-height, 260);
+    height: auto;
+  }
+
+  .item {
+    height: 100%;
+
+    .imageWrapper {
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+      @include rem(max-height, 700);
+
+      img {
+        height: 100%;
+        width: 100%;
+        transition: ease all 0.3s;
+        object-fit: cover;
+        object-position: top center;
+
+        @include media($sm, min) {
+          @include rem(min-height, 260);
+        }
+      }
+    }
+
+    .contentWrapper {
+      text-align: center;
+      color: $secondary;
+      width: 100%;
+      max-width: 90%;
+      margin: 0 auto;
+      @include center(both);
+
+      @include media($sm, min) {
+        @include center(both);
+      }
+
+      .btnWrapper {
+        @include rem(margin-top, 24);
+
+        @include media($lg, min) {
+          @include rem(margin-top, 32);
+        }
+
+        @include media-min-max($sm, $lg) {
+          @include rem(margin-top, 16);
+        }
+      }
+
+      .subHeading {
+        @include rem(letter-spacing, 4);
+        font-size: 1rem;
+        color: $secondary;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+        font-family: $ubuntu;
+        text-transform: uppercase;
+
+        @include media-min-max($sm, $lg) {
+          @include rem(letter-spacing, 3.5);
+        }
+      }
+
+      .heading {
+        color: $secondary;
+        font-size: 3.125rem;
+        line-height: 3.75rem;
+        margin-top: 0;
+        font-family: $ubuntu-bold;
+        margin-bottom: 0;
+
+        @include media($lg, min) {
+          font-size: 5rem;
+          margin-bottom: 2rem;
+          line-height: 5.5rem;
+        }
+
+        @include media-min-max($sm, $lg) {
+          font-size: 3.125rem;
+          line-height: 3.75rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.bannerWrapper {
+  position: relative;
+  z-index: 1;
+
+  .inPageNav {
+    position: absolute;
+  }
+}

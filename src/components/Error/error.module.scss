@@ -1,0 +1,103 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+
+  @include media($sm, min) {
+    height: 100vh;
+  }
+
+  .mainWrapper {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .heading {
+    @include font-size(40);
+    line-height: 1;
+    font-family: $ubuntu-bold;
+    color: $granite;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+
+    @include media($sm, min) {
+      @include font-size(60);
+      top: 15%;
+    }
+
+    @include media($md, min) {
+      @include font-size(120);
+      top: 20%;
+      @include rem(letter-spacing, 14);
+    }
+  }
+
+  .contentWrapper {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    margin-top: -20%;
+    text-align: center;
+
+    @include media($md, min) {
+      margin-top: -22%;
+    }
+
+    .textWrapper {
+      width: 100%;
+
+      h6 {
+        @include font-size(24);
+        @include rem(line-height, 32);
+        @include rem(margin-bottom, 12);
+        font-family: $ubuntu-bold;
+        font-weight: normal;
+        color: $granite;
+
+        @include media($md, min) {
+          @include font-size(60);
+          @include rem(line-height, 68);
+          font-family: $ubuntu;
+        }
+      }
+
+      p {
+        @include font-size(14);
+        @include rem(line-height, 22);
+        font-family: $ubuntu;
+        color: $granite;
+        width: 50%;
+        margin: 0 auto;
+
+        @include media($sm, min) {
+          @include font-size(16);
+          width: 100%;
+          @include rem(line-height, 32);
+        }
+
+        @include media($md, min) {
+          @include font-size(24);
+        }
+      }
+
+      button {
+        @include rem(max-width, 180);
+        @include rem(margin-top, 24);
+
+        @include media($md, min) {
+          @include rem(margin-top, 32);
+        }
+      }
+    }
+  }
+}

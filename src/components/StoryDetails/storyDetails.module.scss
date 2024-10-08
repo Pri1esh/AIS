@@ -1,0 +1,34 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.wrapper {
+  @include rem(padding-top, 20);
+
+  @include media($lg, min) {
+    @include rem(padding-top, 36);
+  }
+
+  .backPress {
+    @include text-shadow($darkcharcoal);
+    position: relative;
+    padding-left: 2rem;
+
+    .arrow {
+      transform: translateY(-50%) rotate(270deg);
+      top: 50%;
+      position: absolute;
+      font-size: 0.5rem;
+      left: 0;
+    }
+  }
+
+  .overview {
+    @include rem(padding-top, 20);
+    @include rem(padding-bottom, 40);
+
+    @include media($lg, min) {
+      @include rem(padding-top, 24);
+      @include rem(padding-bottom, 60);
+    }
+  }
+}

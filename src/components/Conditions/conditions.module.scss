@@ -1,0 +1,14 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.conditions {
+  @include rem('margin-bottom', 24);
+  color: $granite;
+  font-family: $source-sans-regular;
+  @include font-size(14);
+
+  @include media($lg, min) {
+    @include rem('margin-bottom', 32);
+    @include font-size(16);
+  }
+}

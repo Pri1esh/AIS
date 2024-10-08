@@ -1,0 +1,102 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.wrapper {
+  @include padding(40, 0, 40, 0);
+  position: relative;
+  overflow: hidden;
+
+  .heading {
+    @include rem(margin-bottom, 20);
+    display: flex;
+    align-items: center;
+
+    h2 {
+      font-family: $ubuntu-bold;
+      @include font-size(24);
+      color: $baastrichtblue;
+      margin-bottom: 0;
+      @include rem(margin-left, 12);
+    }
+  }
+
+  .icon {
+    @include rem(width, 40);
+    @include rem(height, 40);
+    @include rem(line-height, 40);
+    text-align: center;
+    color: $secondary;
+    background-image: linear-gradient(to bottom, #82288c, $blue);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .marqueeInner {
+    li {
+      @include rem(margin-bottom, 16);
+    }
+
+    @include media($sm, min) {
+      animation-name: marquee;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      position: relative;
+      white-space: nowrap;
+      display: flex;
+
+      li {
+        @include rem(margin-right, 58);
+        color: $darkcharcoal;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include media($sm, min) {
+    @keyframes marquee {
+      0% {
+        left: 100%;
+      }
+
+      100% {
+        left: -240%;
+      }
+    }
+  }
+
+  @include media($md, min) {
+    @keyframes marquee {
+      0% {
+        left: 100%;
+      }
+
+      100% {
+        left: -130%;
+      }
+    }
+  }
+
+  &.snowTheme {
+    background-color: $snow;
+
+    .heading {
+      color: $purple;
+    }
+
+    .description {
+      color: $granite;
+    }
+  }
+
+  .singleMarquee {
+    position: relative;
+    overflow: hidden;
+
+    ul {
+      @include rem(padding-left, 18);
+    }
+  }
+}

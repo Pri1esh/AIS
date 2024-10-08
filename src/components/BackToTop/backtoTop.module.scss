@@ -1,0 +1,32 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.backToTop {
+  position: fixed;
+  bottom: 2rem;
+  z-index: $zindex-2;
+  right: 2%;
+  cursor: pointer;
+
+  .inner {
+    @include rem(border-radius, 48);
+    @include rem(width, 40);
+    @include rem(height, 40);
+    background-color: $secondary;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 0.5rem;
+
+    .icon {
+      font-family: $icon-font;
+      @include rem(font-size, 24);
+      padding-top: 0.75rem;
+      position: relative;
+
+      i {
+        @include rem(font-size, 8);
+        @include center(both);
+      }
+    }
+  }
+}

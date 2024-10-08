@@ -1,0 +1,100 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.wrapper {
+  background-color: $blue;
+  color: $secondary;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  font-family: $source-sans-regular;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: ease all 0.3s;
+
+  p {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    position: relative;
+    padding-right: 6rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media($sm, min) {
+      text-align: center;
+      padding-right: 0;
+    }
+
+    a {
+      color: $secondary;
+      text-decoration: unset;
+
+      i {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        text-decoration: underline;
+
+        @include media($sm, min) {
+          display: none;
+        }
+      }
+    }
+
+    .notificationLabel {
+      @include rem(margin-right, 5);
+      display: -webkit-box;
+      max-width: 100%;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    span {
+      top: 50%;
+      position: absolute;
+      right: 1.9rem;
+      transform: translateY(-50%);
+      text-decoration: underline;
+
+      @include media($sm, min) {
+        display: none;
+      }
+    }
+
+    button {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      margin-left: 2rem;
+      padding: 0;
+      background: none;
+      border: 0;
+      right: 0;
+      width: 1.25rem;
+      height: 1.25rem;
+
+      @include media($sm, min) {
+        position: relative;
+        top: -0.1rem;
+      }
+
+      @include media($lg, min) {
+        position: relative;
+      }
+
+      i {
+        @include center(vertical);
+        color: $secondary;
+        font-size: 1.5rem;
+        left: 0;
+        line-height: 1rem;
+      }
+    }
+  }
+}

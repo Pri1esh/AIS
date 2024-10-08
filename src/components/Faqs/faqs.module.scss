@@ -1,0 +1,130 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding-bottom: 3.75rem;
+  position: relative;
+
+  > div {
+    position: relative;
+    // opacity: 0;
+  }
+
+  @include media($sm, min) {
+    padding-bottom: 6.25rem;
+  }
+
+  .sectionHeading {
+    @include rem('padding-top', 60);
+    @include rem('margin-bottom', 32);
+    @include font-size(40);
+
+    @include media($lg, min) {
+      @include rem('padding-top', 100);
+      @include rem('margin-bottom', 60);
+      @include font-size(60);
+    }
+  }
+
+  .tabWrapper {
+    @include rem('margin-bottom', 24);
+    width: 100%;
+    background-color: $blue;
+    height: 3.75rem;
+
+    @include media($lg, min) {
+      @include rem('margin-bottom', 32);
+    }
+  }
+
+  .faqDataWrapper {
+    :global(.card) {
+      border: 0;
+    }
+
+    .item {
+      border: 0;
+      border-bottom: 0.063rem solid $gainsboro;
+      background: transparent;
+      padding: 0;
+
+      &.active {
+        .itemHeading {
+          @include text-shadow($darkcharcoal);
+          color: $darkcharcoal;
+
+          &::after {
+            content: '';
+            transform: translateY(-50%) rotate(180deg);
+          }
+        }
+      }
+
+      .itemHeading {
+        @include rem('border-radius', 0);
+        font-family: $source-sans-regular;
+        color: $granite;
+        outline: 0;
+        box-shadow: 0 0 0 0 transparent;
+        position: relative;
+
+        p {
+          padding: 1.25rem 2rem 1.5rem 0;
+          margin: 0;
+          cursor: pointer;
+          position: relative;
+          z-index: $zindex-1;
+        }
+
+        &::before {
+          content: '';
+          background: $granite;
+          width: 0.875rem;
+          height: 0.1rem;
+          border-radius: 0.25rem;
+          position: absolute;
+          right: 0.313rem;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          background: $granite;
+          width: 0.875rem;
+          height: 0.1rem;
+          border-radius: 0.25rem;
+          right: 0.313rem;
+          top: 50%;
+          transform: translateY(-50%) rotate(90deg);
+        }
+      }
+
+      .itemBody {
+        padding: 0 1.5rem 1.5rem 0;
+        font-family: $source-sans-regular;
+        color: $granite;
+      }
+    }
+
+    .viewAll {
+      @include rem('margin-top', 32);
+    }
+
+    .note {
+      @include rem('margin-top', 52);
+      color: $granite;
+      font-family: $source-sans-regular;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.noTransition {
+  background-color: $secondary;
+
+  &::before {
+    background: transparent;
+  }
+}

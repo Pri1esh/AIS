@@ -1,0 +1,145 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.linkSectionWrapper {
+  padding-bottom: 3.75rem;
+  padding-top: 3.75rem;
+  position: relative;
+
+  @include media($md, min) {
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+  }
+
+  .heading {
+    @include rem(font-size, 40);
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: $zindex-1;
+
+    @include media($lg, min) {
+      @include rem(font-size, 60);
+    }
+  }
+
+  .subHeading {
+    @include rem(font-size, 24);
+    color: $baastrichtblue;
+    margin-top: 2.5rem;
+
+    @include media($lg, min) {
+      margin-top: 2.75rem;
+    }
+  }
+
+  .description {
+    margin: 0;
+    font-size: 1rem;
+    color: $granite;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: $zindex-1;
+  }
+
+  .wrapper {
+    .link {
+      @include font-size(16);
+      line-height: 1.5rem;
+      border: 0;
+      border-bottom: 0.063rem solid $gainsboro;
+
+      @include media($lg, min) {
+        &:hover {
+          background: $aliceblue;
+        }
+      }
+
+      a {
+        @include padding(19, 0, 19, 0);
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        color: $granite;
+
+        @include media($lg, min) {
+          @include padding(19, 0, 19, 16);
+
+          &:hover {
+            color: $darkcharcoal;
+
+            span {
+              text-decoration: none;
+              @include text-shadow($granite);
+            }
+          }
+        }
+      }
+
+      .viewText {
+        @include text-shadow($granite);
+        right: 0;
+        position: absolute;
+        text-decoration: underline;
+        color: $granite;
+
+        @include media($lg, min) {
+          @include rem(right, 14);
+          color: $darkcharcoal;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+
+  i {
+    position: absolute;
+    right: 0.313rem;
+  }
+}
+
+.modal {
+  .header {
+    padding: 1.5rem 1rem 0;
+    border-bottom: 0;
+
+    @include media($md, min) {
+      padding: 2.5rem 2.5rem 0;
+    }
+
+    button {
+      opacity: 1;
+      border: 0.063rem solid $angorapink;
+      border-radius: 50%;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      &:global(.btn-close) {
+        @include rem(width, 12);
+        @include rem(height, 12);
+        padding: 0.75rem;
+        margin: 0;
+      }
+    }
+  }
+
+  :global(.modal-body) {
+    padding: 1.5rem 1rem 1.5rem;
+
+    @include media($md, min) {
+      padding: 1.5rem 2.5rem 2.5rem;
+    }
+
+    .content {
+      border: 0.063rem solid $gainsboro;
+      background-color: $ghostwhite;
+
+      img {
+        margin: auto;
+        max-height: 100%;
+      }
+    }
+  }
+}

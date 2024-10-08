@@ -1,0 +1,103 @@
+@import '../../../styles/partials/variable.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.wrapper {
+  @include padding(0, 0, 60, 0);
+
+  @include media($sm, min) {
+    @include padding(0, 0, 100, 0);
+  }
+
+  .heading {
+    @include rem(font-size, 40);
+    @include rem(margin-bottom, 40);
+    color: $blue;
+
+    @include media($lg, min) {
+      @include rem(font-size, 60);
+      @include rem(margin-bottom, 60);
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      width: 100%;
+      position: relative;
+
+      @include media($sm, min) {
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .textWrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include padding(40, 20, 40, 20);
+
+        @include media-min-max($sm, $lg) {
+          @include padding(42, 10, 42, 10);
+        }
+
+        h3 {
+          @include rem(font-size, 24);
+          @include rem(margin-bottom, 16);
+          font-family: $ubuntu;
+          color: $secondary;
+
+          @include media-min-max($sm, $lg) {
+            @include rem(margin-bottom, 8);
+          }
+
+          @include media($md, min) {
+            @include rem(font-size, 40);
+            font-family: $ubuntu-bold;
+          }
+        }
+
+        p {
+          color: $secondary;
+        }
+
+        .description {
+          margin-bottom: 0;
+
+          p {
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+
+          @include media-min-max($sm, $lg) {
+            @include rem(font-size, 12);
+            @include rem(line-height, 16);
+            @include rem(margin, 0);
+          }
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      &.blueWrapper {
+        background-color: $blue;
+      }
+
+      &.purpleWrapper {
+        background-color: $purple;
+      }
+    }
+  }
+}

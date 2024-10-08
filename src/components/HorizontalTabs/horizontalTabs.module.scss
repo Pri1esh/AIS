@@ -1,0 +1,57 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  width: 100%;
+  background-color: $blue;
+  position: relative;
+
+  .navWrapper {
+    @include padding(18, 30, 12, 10);
+    @include rem(margin-bottom, 0);
+    display: block;
+    justify-content: center;
+    background-color: $blue;
+    list-style: none;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-align: center;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .navItem {
+      white-space: nowrap;
+      text-align: center;
+      display: inline;
+      cursor: pointer;
+
+      @include media($sm, min) {
+        @include margin(0, 20, 0, 20);
+      }
+
+      .navLink {
+        @include padding(0, 10, 0, 10);
+        @include rem(font-size, 16);
+        @include rem(padding-bottom, 6);
+        border-bottom: 0.0625rem solid transparent;
+        font-family: $source-sans-regular;
+        color: $secondary;
+        text-decoration: none;
+        position: relative;
+
+        &:hover {
+          @include text-shadow($secondary);
+        }
+      }
+
+      &.activeNavItem {
+        @include rem(padding-bottom, 6);
+        @include text-shadow($secondary);
+        border-bottom: 0.125rem solid $secondary;
+      }
+    }
+  }
+}

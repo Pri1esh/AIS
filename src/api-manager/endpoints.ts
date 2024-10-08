@@ -1,0 +1,73 @@
+const apiKey = "FEE76367-7BAD-4F4B-B7CD-2F47999B8BC7";
+
+export default class ENDPOINT {
+  static SSR = {
+    homePage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    whoWeArePage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/WhoWeAre&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    aboutUsPage:
+      '/sitecore/api/layout/render?item=%7b19DE2C5F-44FB-418E-BDEC-D8898BC8E644%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    visionMissionValuesPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Vision-Mission-Values&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    privacyPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Privacy-Policy&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    mandatoryPublicDisclosurePage:
+      '/sitecore/api/layout/render/jss?item=/sitecore/content/Adani-International-School/Home/public-disclosure&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    admissionsPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Admission&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    policiesPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/policies&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    founder:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Founder&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    careersPage:
+      '/sitecore/api/layout/render?item=%7b328D1342-B839-4C7E-8E00-D4A3D9EE774E%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    legalPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Legal-Disclaimer&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    termsPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Terms-and-Conditions&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    learningPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Learning&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    contactUsPage:
+      '/sitecore/api/layout/render?item=%7b5B2E79C3-7F19-4555-A5B0-2842448C8824%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    sitemapXMLApi:
+      '/sitecore/api/layout/render?item={ADDA7084-41CA-45F1-B665-DF4DFBC0F6B3}&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    ourApproachPage:
+      '/sitecore/api/layout/render?item=%7b7E387268-CFB5-4C48-8682-F2317F3AC3D9%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    transportationPage:
+      '/sitecore/api/layout/render?item=%7b0E03EAB0-A836-429B-B8D7-CAF361B63424%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    transportationInfoPage:
+      '/sitecore/api/layout/render?&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web&item=/sitecore/content/Adani-International-School/Home/Transportation/',
+    lifeAtSchoolPage:
+      '/sitecore/api/layout/render?item=%7B2BD543B2-349B-499F-A30E-354CC574C30A%7D&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    lifeAtSchoolActivitiesPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/lifeatschoolactivitiespages/{page}&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    enrolNowPage:
+      '/sitecore/api/layout/render?item=%7bDE91FCC0-C238-4306-A958-E96E542F3A1A%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    faqsPage:
+      '/sitecore/api/layout/render?item=%7bFA449726-92F4-4B85-87AB-FEF9DCFBCD72%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    techInnovationPage:
+      '/sitecore/api/layout/render?item=%7b1E0E39C5-16FD-42F3-9BB5-351190412597%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    storiesPage:
+      '/sitecore/api/layout/render?item=%7b01932E78-461C-4B27-8A97-E817A8D839FC%7d&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    affiliationsPage:
+      '/sitecore/api/layout/render/jss?item=/sitecore/content/Adani-International-School/Home/Affiliations&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    latestStoryPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/latest-events&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    allActivities:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/all-activities&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    academicsPage:
+      '/sitecore/api/layout/render?sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web&item=/sitecore/content/adani-international-school/home/academics/',
+    publicationsPage:
+      '/sitecore/api/layout/render?sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web&item=/sitecore/content/adani-international-school/home/publications/',
+    infrastructureInfoPage:
+      '/sitecore/api/layout/render?item=/sitecore/content/Adani-International-School/Home/Our-Infrastructure/{page}&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    readingWritingPage:
+      '/sitecore/api/layout/render/jss?item=/sitecore/content/Adani-International-School/Home/Learning/reading-writing-programme&sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web',
+    storiesDetailsPage:
+      '/sitecore/api/layout/render/?sc_apikey={'+apiKey+'}&sc_site=AdaniInternationalSchool&sc_content=web&item=/sitecore/content/Adani-International-School/Home',
+  };
+  static CLIENT = {
+    postForm: '/api/AISContactUs/Index',
+  };
+}

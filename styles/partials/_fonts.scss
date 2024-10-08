@@ -1,0 +1,5 @@
+$font-path: '/assets/fonts/';
+@include font-face(Ubuntu, '#{$font-path}ubuntu', normal, normal, swap);
+@include font-face(UbuntuBold, '#{$font-path}ubuntu-bold', normal, normal, swap);
+@include font-face(SourceSansRegular, '#{$font-path}sourcesanspro-regular', normal, normal, swap);
+@include font-face(IconFont, '#{$font-path}iconfont', normal, normal, swap);

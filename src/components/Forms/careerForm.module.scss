@@ -1,0 +1,70 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding: 3.75rem 0rem;
+
+  @include media($sm, min) {
+    padding: 6.25rem 0;
+  }
+
+  .formHeading {
+    @include font-size(40);
+    @include rem('line-height', 48);
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+    @include media($lg, min) {
+      @include font-size(60);
+    }
+  }
+
+  .formFields {
+    @include rem('row-gap', 24);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-bottom: 1.5rem;
+
+    @include media($lg, min) {
+      @include rem('row-gap', 32);
+      @include rem('margin-left', -15);
+      @include rem('margin-right', -15);
+    }
+
+    > div {
+      flex: 0 0 100%;
+
+      @include media($sm, min) {
+        @include rem('padding-left', 15);
+        @include rem('padding-right', 15);
+        flex: 0 0 50%;
+      }
+
+      @include media($lg, min) {
+        flex: 0 0 33.33%;
+      }
+    }
+  }
+
+  .maxWidth {
+    width: 100%;
+  }
+
+  .button {
+    background-color: $blue;
+    width: 100%;
+
+    @include media($sm, min) {
+      width: 48%;
+    }
+
+    @include media($lg, min) {
+      width: 32%;
+    }
+  }
+}
+
+.lightBlueTheme {
+  background-color: $aliceblue;
+}

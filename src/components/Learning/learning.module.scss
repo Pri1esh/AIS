@@ -1,0 +1,240 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include padding(60, 0, 60, 0);
+  background-color: $purple;
+  position: relative;
+
+  @include media($lg, min) {
+    @include padding(100, 0, 100, 0);
+    margin: 0;
+  }
+}
+
+.heading {
+  @include font-size(60);
+  @include margin(0, 0, 16, 0);
+  color: $secondary;
+
+  @include media($lg, min) {
+    @include font-size(60);
+  }
+
+  @include media($md, max) {
+    @include font-size(40);
+  }
+}
+
+.subHeading {
+  @include font-size(14);
+  color: $secondary;
+  @include margin(0, 0, 12, 0);
+}
+
+.description {
+  margin: 0;
+  @include font-size(16);
+  line-height: 1.5rem;
+  color: $secondary;
+  @include margin(0, 0, 32, 0);
+  letter-spacing: -0.2px;
+
+  @include media($sm, min) {
+    width: 70%;
+  }
+
+  @include media($lg, min) {
+    width: 55%;
+  }
+}
+
+.button {
+  @include margin(0, 0, 20, 0);
+
+  @include media($md, min) {
+    @include margin(0, 0, 60, 0);
+  }
+}
+
+.itemWrapper {
+  display: flex;
+  column-gap: 1.25rem;
+  min-width: 54%;
+}
+
+.blockWrapper {
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.item {
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+
+  @include media($sm, min) {
+    @include rem(margin-bottom, 0);
+  }
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .textWrapper {
+    @include padding(0, 0, 28, 28);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    &:after {
+      @include rem(min-height, 160);
+      content: '';
+      opacity: 0.4;
+      background-image: linear-gradient(180deg, transparent, $primary);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    h3 {
+      @include font-size(18);
+      @include margin(0, 0, 8, 0);
+      color: $secondary;
+      z-index: 1;
+      position: relative;
+    }
+
+    p {
+      color: $secondary;
+      @include font-size(16);
+      z-index: 1;
+      position: relative;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.blockCardWrapper {
+  display: flex;
+  width: 100%;
+  min-width: 44%;
+
+  .cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.25rem;
+    justify-content: space-between;
+    @include rem(min-width, 350);
+    @include padding(0, 16, 0, 0);
+
+    @include media-min-max($sm, $lg) {
+      @include rem(min-width, 350);
+      padding-right: 0;
+    }
+
+    @include media($lg, 'min') {
+      justify-content: flex-end;
+      padding-right: 0;
+    }
+
+    .cards {
+      width: 100%;
+      max-width: calc(50% - 0.65rem);
+      @include rem(min-height, 190);
+
+      @include media($lg, 'min') {
+        max-width: calc(50% - 0.75rem);
+        @include rem(min-height, 190);
+      }
+
+      @include media-min-max($sm, $lg) {
+        @include rem(min-height, 150);
+      }
+
+      .card {
+        h4 {
+          color: $secondary;
+          @include font-size(24);
+          line-height: 2rem;
+          width: 72%;
+
+          @include media($lg, min) {
+            @include font-size(36);
+            line-height: 2.625rem;
+            width: 65%;
+          }
+
+          @include media($md, max) {
+            @include font-size(28);
+            line-height: 2.125rem;
+          }
+        }
+      }
+
+      .cardsInner {
+        @include padding(16, 16, 16, 16);
+        background: $secondary;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        position: relative;
+
+        img {
+          position: absolute;
+          width: 6.25rem;
+          z-index: 0;
+          right: 0.7rem;
+          bottom: 0.7rem;
+
+          @include media-min-max($sm, $lg) {
+            width: 5rem;
+          }
+
+          @include media($sm, min) {
+            right: 1.25rem;
+            bottom: 1.25rem;
+          }
+        }
+
+        .cardInnerDescription {
+          z-index: 1;
+          position: relative;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        h4 {
+          @include font-size(18);
+          line-height: 1.5rem;
+          color: $primary;
+        }
+
+        p {
+          @include font-size(16);
+          line-height: 1.25rem;
+          color: $primary;
+          @include margin(0, 12, 0, 12);
+
+          @include media($md, min) {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.colorWhite {
+  background-color: $secondary;
+}

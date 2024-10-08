@@ -1,0 +1,70 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem(padding-bottom, 70);
+
+  @include media($lg, min) {
+    @include rem(padding-bottom, 40);
+  }
+
+  @include media($md, min) {
+    @include rem(padding-bottom, 60);
+  }
+
+  .heading {
+    @include rem(font-size, 40);
+    @include rem(margin-bottom, 40);
+
+    position: relative;
+    z-index: $zindex-1;
+    color: $purple;
+
+    @include media($lg, min) {
+      @include rem(font-size, 60);
+      @include rem(margin-bottom, 60);
+    }
+  }
+
+  .cardWrapper {
+    .thumb {
+      @include rem(max-height, 240);
+      position: relative;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .description {
+      @include padding(20, 0, 30, 0);
+
+      @include media($md, min) {
+        @include padding(20, 0, 40, 0);
+      }
+
+      @include media($lg, min) {
+        @include padding(20, 0, 60, 0);
+      }
+
+      .cardHeading {
+        color: $baastrichtblue;
+        @include font-size(18);
+        margin-bottom: 0.5rem;
+        font-weight: 800;
+      }
+
+      .cardDescription {
+        color: $granite;
+        margin-bottom: 0.5rem;
+      }
+
+      .cardSubHeading {
+        color: $purple;
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+  }
+}

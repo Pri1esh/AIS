@@ -1,0 +1,1429 @@
+{
+  "header": {
+    "logoSrc": "../assets/images/headerLogo.png",
+    "logoSrcSmall": "../assets/images/logoSmall.png",
+    "logoSrcHamburger": "../assets/images/logoSrcHamburger.svg",
+    "hamburgerBG": "../assets/images/hamburgerBG.svg",
+    "logoAlt": "Adani International School",
+    "url": "/",
+    "gtmData": {
+      "event": "icon_click",
+      "category": "user_interaction",
+      "sub_category": "top",
+      "title": "Adani International School",
+      "page_type": "homepage"
+    },
+    "navigation": [
+      {
+        "label": "Who We Are",
+        "url": "/who-we-are",
+        "target": "",
+        "isActive": true,
+        "isHighLighted": false,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            },
+            "subMenu": [
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              },
+              {
+                "label": "Overview",
+                "url": "/url",
+                "target": "",
+                "gtmData": {
+                  "event": "top_navigation_interaction",
+                  "category": "user_interaction",
+                  "sub_category": "top_navigation",
+                  "label": "who we are",
+                  "page_type": "homepage"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Learning",
+        "url": "/learning",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        },
+        "subMenu": [
+          {
+            "label": "Overview",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "About Us",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Vision, Mission & Values",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Founder",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Policies",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Mandatory Public Disclosure",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "label": "Affiliations and Accrediations",
+            "url": "/url",
+            "target": "",
+            "gtmData": {
+              "event": "top_navigation_interaction",
+              "category": "user_interaction",
+              "sub_category": "top_navigation",
+              "label": "who we are",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Life at School",
+        "url": "/life-at-school",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Admissions",
+        "url": "/admissions",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": true,
+        "highlightLabel": "Open",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Careers",
+        "url": "/careers",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "label": "Contact",
+        "url": "/contact-us",
+        "target": "",
+        "isActive": false,
+        "isHighLighted": false,
+        "highlightLabel": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "social": [
+      {
+        "url": "https://www.facebook.com/AdaniIntSchool",
+        "label": "facebook",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://twitter.com/AdaniIntSchool",
+        "label": "twitter",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.instagram.com/adaniintschool/",
+        "label": "instagram",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+        "label": "youtube",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "https://www.linkedin.com/company/adani-int-school",
+        "label": "linkedin",
+        "target": "",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ],
+    "contact": [
+      {
+        "url": "tel:+917925556888",
+        "label": "+91 79 2555 6888",
+        "type": "mobile",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      },
+      {
+        "url": "admissions@adaniinternational.edu.in",
+        "label": "admissions@adaniinternational.edu.in",
+        "type": "mail",
+        "gtmData": {
+          "event": "top_navigation_interaction",
+          "category": "user_interaction",
+          "sub_category": "top_navigation",
+          "label": "who we are",
+          "page_type": "homepage"
+        }
+      }
+    ]
+  },
+  "seoData": {
+    "pageTitle": "Welcome to Adani International School",
+    "metaDescription": "Adani International School",
+    "metaKeywords": "Adani International School",
+    "metaTitle": "Adani International School",
+    "ogTitle": "Adani International School",
+    "robotsTags": "noindex, nofollow",
+    "browserTitle": "Adani International School",
+    "ogImage": "https://www.adaniinternationalschool.com/image.jpg",
+    "ogDescription": "Adani International School",
+    "ogKeyword": "Adani International School",
+    "canonicalUrl": "https://www.adaniinternationalschool.com/",
+    "googleSiteVerification": "NsrtBG1AEJXqImN7FAQ_4CFkSVcrx5NPf1cQs206jQU",
+    "msValidate": "2B0C34807FA5B7ACA277D5A725CDE76D",
+    "orgSchema": {
+      "telephone": "1800 108 0009",
+      "contactType": "Customer Service",
+      "areaServed": "India",
+      "streetAddress": "Address,",
+      "addressLocality": "Ahmedabad , Gujrat",
+      "addressRegion": "IN",
+      "postalCode": "382421",
+      "sameAs": [
+        "https://www.instagram.com/adaniinternationalschool/",
+        "https://www.facebook.com/adaniinternationalschool",
+        "https://twitter.com/adaniinternationalschool",
+        "https://www.linkedin.com/company/adaniinternationalschool",
+        "https://www.youtube.com/c/adaniinternationalschool"
+      ],
+      "contactOption": "Toll Free",
+      "logo": "https://www.adaniinternationalschool.com/logo.svg",
+      "url": "https://www.adaniinternationalschool.com/"
+    }
+  },
+  "mainBanner": {
+    "imageSource": "https://www.adaniinternationalschool.org/-/media/EBF579D16C2B4D46A2A39EA7FB734B17.ashx",
+    "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+    "imageAlt": "imageAlt",
+    "subHeading": "Learning",
+    "heading": "Programmes",
+    "link": "",
+    "target": "_self",
+    "linkText": "",
+    "videoDuration": "",
+    "gtmData": {
+      "event": "",
+      "category": "",
+      "banner_category": "",
+      "title": "",
+      "label": "Vision, Mission & Values",
+      "index": "0",
+      "page_type": "privacypage"
+    }
+  },
+  "subNav": [
+    {
+      "url": "/learning",
+      "label": "Overview",
+      "target": "",
+      "active": true,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "learning"
+      }
+    },
+    {
+      "url": "/learning/our-approach",
+      "label": "Our Approach",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "learning"
+      }
+    },
+    {
+      "url": "/learning/academics",
+      "label": "Academics",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "learning"
+      }
+    },
+    {
+      "url": "/learning/technology-innovation",
+      "label": "Technology & Innovation",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "learning"
+      }
+    },
+    {
+      "url": "/learning/reading-writing-programme",
+      "label": "Reading & Writing Programme",
+      "target": "",
+      "active": false,
+      "gtmData": {
+        "event": "",
+        "category": "",
+        "sub_category": "",
+        "label": "Vision, Mission & Values",
+        "page_type": "learning"
+      }
+    }
+  ],
+  "overview": {
+    "heading": "Our Approach",
+    "description": "We don’t believe in defining a rigid path to education but allow our children to explore, engage and solve problems on their own, at the pace they want. Our goal is to reinvent our curriculum by keeping in view students’ learning needs and guiding them with experiential and inquiry-based learning to help them think independently.",
+    "link": "#",
+    "target": "_self",
+    "linkText": "Learn More",
+    "backgroundImage": "https://via.placeholder.com/150/F1F1F1/F1F1F1",
+    "gtmData": {
+      "event": "learn_more",
+      "category": "user_interaction",
+      "sub_category": "",
+      "label": "",
+      "page_type": "learning"
+    }
+  },
+  "academicsCard": {
+    "data": [
+      {
+        "theme": "purple",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "The Academics",
+        "heading": "Academic Programmes",
+        "description": "Adani International School offers a quality education that is recognised at the global level. Our educational frameworks are adaptable, within which knowledge can be easily exchanged between programmes that have been customised to help young students develop connections and explore relations between different academic disciplines. We guide them to create a better, more peaceful world through education and intercultural understanding.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      }
+    ],
+    "variant": "card",
+    "sectionID": "theAcademics"
+  },
+  "technologyInnovationCarousel": {
+    "data": [
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "What makes us stand out?",
+        "heading": "Technology & Innovation",
+        "description": "Today's children are born at a time when the use of technology is the new normal. To cater to such a generation, present-day schools have a critical need to adapt teaching and assessing styles commensurate with the new generation's style of receptiveness and learning. We have invested heavily in developing and implementing technical standards that will engage and excite the learners of tomorrow.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Electronics & Robotics",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "Academics Excellence",
+        "heading": "Academics Excellence",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Learn More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Experiments",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "What makes us stand out?",
+        "heading": "Technology & Innovation",
+        "description": "Today's children are born at a time when the use of technology is the new normal. To cater to such a generation, present-day schools have a critical need to adapt teaching and assessing styles commensurate with the new generation's style of receptiveness and learning. We have invested heavily in developing and implementing technical standards that will engage and excite the learners of tomorrow.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Electronics & Robotics",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "Academics Excellence",
+        "heading": "Academics Excellence",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Learn More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Experiments",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "What makes us stand out?",
+        "heading": "Technology & Innovation",
+        "description": "Today's children are born at a time when the use of technology is the new normal. To cater to such a generation, present-day schools have a critical need to adapt teaching and assessing styles commensurate with the new generation's style of receptiveness and learning. We have invested heavily in developing and implementing technical standards that will engage and excite the learners of tomorrow.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Electronics & Robotics",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "Academics Excellence",
+        "heading": "Academics Excellence",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Learn More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Electronics",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "textFirst": "true",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "What makes us stand out?",
+        "heading": "Technology & Innovation",
+        "description": "Today's children are born at a time when the use of technology is the new normal. To cater to such a generation, present-day schools have a critical need to adapt teaching and assessing styles commensurate with the new generation's style of receptiveness and learning. We have invested heavily in developing and implementing technical standards that will engage and excite the learners of tomorrow.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "imageText": "Robotics",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      }
+    ],
+    "variant": "carousel",
+    "sectionID": "academicExcellence"
+  },
+  "communicationCard": {
+    "data": [
+      {
+        "theme": "snow",
+        "textFirst": "false",
+        "cardType": "text",
+        "mediaType": "image",
+        "subHeading": "Communication",
+        "heading": "Reading & Writing Programme",
+        "description": "At Adani International School, a great emphasis is placed on developing oral and written communication skills. Our inclusive language program begins with recognising that children learn to read at different rates and at different times. Various books are available for the students to read during lessons and unstructured time to support this reading development.",
+        "link": "#",
+        "target": "_self",
+        "linkText": "Read More",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      }
+    ],
+    "variant": "card",
+    "sectionID": "communication"
+  },
+  "facilities": {
+    "heading": "Facilities",
+    "description": "Our state-of-the-art facilities and learning spaces have been designed to cater for a contemporary, interdisciplinary approach to learning which mirrors our aim to provide a holistic approach to education in the most innovative fashion.",
+    "sectionID": "facilities",
+    "theme": "snow",
+    "variant": "falilityCard",
+    "gallery": [
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Art & Digital Design Studio",
+        "inpression": "Artistic Representation"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Makerspace Lab"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Science Lab"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Design & Technology Studio"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Kindness"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Kindness"
+      },
+      {
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "Facilities",
+        "heading": "Kindness"
+      }
+    ]
+  },
+  "steamCard": {
+    "subHeading": "Practical Learning",
+    "heading": "STEAM",
+    "description": "STEAM activities ignite the curiosity within the young learners, in an attempt to stimulate the desire to question everything that happens around them and attempt to explore and find an appropriate answer. It is a harmonious amalgamation of science and arts which offer answers to the most complex problems.",
+    "steamList": [
+      {
+        "label": "Science",
+        "theme": "purple",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": ""
+      },
+      {
+        "label": "Technology",
+        "theme": "blue",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": ""
+      },
+      {
+        "label": "Engineering",
+        "theme": "purple",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": ""
+      },
+      {
+        "label": "Arts",
+        "theme": "blue",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": ""
+      },
+      {
+        "label": "Mathematics",
+        "theme": "purple",
+        "imageSource": "",
+        "imageSourceMobile": "",
+        "imageSourceTablet": ""
+      }
+    ]
+  },
+  "findOutMore": {
+    "heading": "Find out more",
+    "description": "Click below on specific sections to know more about our facilities and programs.",
+    "data": [
+      {
+        "theme": "purple",
+        "heading": "Arts",
+        "description": "Giving opportunities to showcase creativity.",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "url": "/",
+        "label": "Read More",
+        "target": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "heading": "Sports",
+        "description": "Combining physical development with focus and teamwork.",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "url": "/",
+        "label": "Read More",
+        "target": "",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "purple",
+        "heading": "Co- Curricular",
+        "description": "Helping to enhance character and confidence to build a lifelong friendship.",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "url": "/",
+        "label": "Read More",
+        "target": "",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      },
+      {
+        "theme": "darkBlue",
+        "heading": "Life at School",
+        "description": "Making our students happy and thriving in their learning environment.",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceMobile": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageSourceTablet": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "imageAlt",
+        "url": "/",
+        "label": "Read More",
+        "target": "",
+        "videoDuration": "",
+        "gtmData": {
+          "event": "learn_more",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "learning"
+        }
+      }
+    ]
+  },
+  "stories": {
+    "heading": "Stories",
+    "linkText": "View All",
+    "link": "#",
+    "target": "_self",
+    "gtmData": {
+      "event": "learn_more",
+      "category": "user_interaction",
+      "sub_category": "",
+      "label": "",
+      "page_type": "learning"
+    },
+    "storyList": [
+      {
+        "eventTxt": "Upcoming Event",
+        "target": "",
+        "link": "",
+        "upcomingEvent": true,
+        "storyHeading": "3D artwork with natural materials",
+        "eventDate": "23 Feb 2023",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "image",
+        "gtmData": {
+          "event": "story_interaction",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "careers_page"
+        }
+      },
+      {
+        "eventTxt": "Event",
+        "target": "",
+        "link": "/art-competition",
+        "upcomingEvent": false,
+        "storyHeading": "Art Competition",
+        "eventDate": "28 Nov 2022",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "image",
+        "gtmData": {
+          "event": "story_interaction",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "careers_page"
+        }
+      },
+      {
+        "eventTxt": "Event",
+        "target": "",
+        "link": "/ballet-dance",
+        "upcomingEvent": false,
+        "storyHeading": "Ballet Dance",
+        "eventDate": "22 Nov 2022",
+        "imageSource": "https://placehold.jp/24/b8c7bd/b8c7bd/100x100.png",
+        "imageAlt": "image",
+        "gtmData": {
+          "event": "story_interaction",
+          "category": "user_interaction",
+          "sub_category": "",
+          "label": "",
+          "page_type": "careers_page"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "quicklinks": {
+      "title": "Quick Links:",
+      "list": [
+        {
+          "url": "/who-we-are",
+          "label": "Who We Are",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/infrastructure",
+          "label": "Our Infrastructure",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/admissions/transportation",
+          "label": "Transportation",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/stories",
+          "label": "Stories",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/careers",
+          "label": "Careers",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "footerlinks": [
+      {
+        "title": "Learning",
+        "list": [
+          {
+            "url": "/learning/our-approach",
+            "label": "Our Approach",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/learning/academics",
+            "label": "Academics",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/learning/technology-innovation",
+            "label": "Technology & Innovation",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Life at School",
+        "list": [
+          {
+            "url": "/life-at-school/co-curricular",
+            "label": "Beyond Curriculum",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Pastoral Care & Well being",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/life-at-school/sports",
+            "label": "Creativity & Sports",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/life-at-school/health-safety",
+            "label": "Health & Safety",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Related Stories",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Admission",
+        "list": [
+          {
+            "url": "/admissions",
+            "label": "Admission Overview",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/url",
+            "label": "Inquire Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/admissions/enrol-now",
+            "label": "Enrol Now",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          },
+          {
+            "url": "/faqs",
+            "label": "FAQs",
+            "target": "",
+            "gtmData": {
+              "event": "",
+              "category": "",
+              "sub_category": "",
+              "label": "Vision, Mission & Values",
+              "page_type": "homepage"
+            }
+          }
+        ]
+      }
+    ],
+    "copyRight": {
+      "copyRightText": "© 2023 Adani International School",
+      "list": [
+        {
+          "url": "/privacy",
+          "label": "Privacy",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/url",
+          "label": "Legal",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "/terms-and-conditions",
+          "label": "Terms",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    },
+    "schoolInfo": {
+      "schoolLogo": "assets/images/logo.svg",
+      "alt": "Adani International School",
+      "social": [
+        {
+          "url": "https://www.facebook.com/AdaniIntSchool",
+          "label": "facebook",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://twitter.com/AdaniIntSchool",
+          "label": "twitter",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.instagram.com/adaniintschool/",
+          "label": "instagram",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCGRM0cqJmuJl2CO1K7wxntg",
+          "label": "youtube",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "https://www.linkedin.com/company/adani-int-school",
+          "label": "linkedin",
+          "target": "",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ],
+      "contact": [
+        {
+          "url": "",
+          "detail": "Adani International School Adani Estate Management Pvt. Ltd, 1st Floor, CBD, Shantigram, Near Vaishnodevi Circle, SG Road, Ahmedabad 382421",
+          "label": "location"
+        },
+        {
+          "url": "mailto:admissions@adani.com",
+          "detail": "admissions@adani.com",
+          "label": "mail",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        },
+        {
+          "url": "tel:+917925556888",
+          "detail": "+91 79 2555 6888",
+          "label": "mobile",
+          "gtmData": {
+            "event": "",
+            "category": "",
+            "sub_category": "",
+            "label": "Vision, Mission & Values",
+            "page_type": "homepage"
+          }
+        }
+      ]
+    }
+  }
+}

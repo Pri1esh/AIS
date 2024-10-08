@@ -1,0 +1,82 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.wrapper {
+  padding-bottom: 3.75rem;
+
+  .heading {
+    @include font-size(40);
+    font-family: $ubuntu-bold;
+    padding-bottom: 1rem;
+    color: $darkcharcoal;
+
+    &.blueHeading {
+      color: $blue;
+    }
+
+    &.purpleHeading {
+      color: $purple;
+    }
+  }
+
+  .description {
+    @include font-size(16);
+    @include rem(padding-bottom, 24);
+    color: $granite;
+  }
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2.5rem;
+    row-gap: 1.875rem;
+    justify-content: space-between;
+
+    .cardImage {
+      flex: 0 0 100%;
+
+      @include media($sm, min) {
+        flex: 0 0 48.5%;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin: 0 -0.62rem;
+
+    .feature {
+      width: 50%;
+      padding: 0 0.62rem;
+
+      @include media($sm, min) {
+        width: 25%;
+      }
+
+      @include media($lg, min) {
+        width: 20%;
+      }
+
+      .imageWrapper {
+        .image {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .featureTitle {
+        @include font-size(18);
+        padding-top: 0.75rem;
+        color: $darkcharcoal;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../../styles/partials/variable';
+@import '../../../styles/partials/mixins';
+
+.socialBlock {
+  display: flex;
+
+  a {
+    color: $secondary;
+    text-decoration: none;
+    line-height: 1.25rem;
+
+    &:last-child {
+
+      i,
+      img {
+        margin-right: 0;
+      }
+    }
+  }
+
+  i {
+    @include font-size(20);
+    line-height: 1;
+
+    @include media($lg, min) {
+      @include font-size(14);
+    }
+  }
+
+  img {
+    @include rem(width, 20);
+    line-height: 1;
+
+    @include media($lg, min) {
+      @include rem(width, 14);
+
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}

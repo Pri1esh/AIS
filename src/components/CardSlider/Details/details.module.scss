@@ -1,0 +1,67 @@
+@import '../../../../styles/partials/variable';
+@import '../../../../styles/partials/mixins';
+
+.wrapper {
+  @include rem(padding-bottom, 24);
+  position: relative;
+
+  @include media($sm, min) {
+    @include rem(max-width, 600);
+    @include rem(padding-bottom, 60);
+  }
+
+  @include media($md, min) {
+    @include rem(max-width, 800);
+  }
+
+  .subHeading {
+    @include rem(margin-bottom, 12);
+    @include font-size(14);
+  }
+
+  .heading {
+    @include rem(margin-bottom, 16);
+    @include rem(line-height, 48);
+    @include font-size(40);
+
+    @include media($sm, min) {
+      @include rem(line-height, 68);
+      @include font-size(60);
+    }
+  }
+
+  .description {
+    @include font-size(16);
+    @include rem(margin-bottom, 0);
+  }
+
+  a {
+    @include rem(margin-top, 32);
+    @include text-shadow($darkcharcoal);
+    display: block;
+    font-family: $source-sans-regular;
+    color: $darkcharcoal;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.darkTheme {
+  .subHeading,
+  .heading,
+  .description {
+    color: $secondary;
+  }
+}
+
+.snowTheme {
+  .heading {
+    color: $purple;
+  }
+
+  a {
+    color: $darkcharcoal;
+  }
+}
