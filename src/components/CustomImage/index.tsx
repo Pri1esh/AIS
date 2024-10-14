@@ -32,7 +32,7 @@ const CustomImage = (props: ICustomImage) => {
   return type === 'img' ? (
     <img
       {...props}
-      src={`http://uat-s.adaniinternationalschool.org${getImageSource() || src?.defaultSource}`}
+      src={`${getImageSource() || src?.defaultSource}`}
       alt={alt}
       loading={Boolean(lazy) && !priority ? 'lazy' : 'eager'}
       key={deviceType}
@@ -41,7 +41,7 @@ const CustomImage = (props: ICustomImage) => {
   ) : (
     <Image
       {...props}
-      src={`http://uat-s.adaniinternationalschool.org${getImageSource() || src?.defaultSource}`}
+      src={`${getImageSource() || src?.defaultSource}`}
       loader={() => customLoader(getImageSource() || src?.defaultSource)}
       alt={alt}
       loading={Boolean(lazy) && !priority ? 'lazy' : 'eager'}
