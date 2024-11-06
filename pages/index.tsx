@@ -37,6 +37,7 @@ const HomePage: NextPage<IPage> = (props) => {
     ourInfrastructure = null,
     stories = null,
     welcomeCard = null,
+    Testimonials = null,
     cookies = null,
   } = main;
 
@@ -55,6 +56,7 @@ const HomePage: NextPage<IPage> = (props) => {
       {learning?.fields && <Learning compData={learning?.fields} />}
       {lifeAtSchool?.fields && <CardSlider compData={lifeAtSchool?.fields} />}
       {ourInfrastructure?.fields && <ScaleSlider compData={ourInfrastructure?.fields} />}
+      {Testimonials?.fields && <TwoColumnCard compData={Testimonials?.fields} />}
       {stories?.fields && <CardSlider compData={stories?.fields} />}
       {admissionCards?.fields && <TwoColumnCard compData={admissionCards?.fields} />}
       {faqs?.fields && <Faqs compData={faqs?.fields} />}
